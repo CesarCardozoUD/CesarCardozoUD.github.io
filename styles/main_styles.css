@@ -1,0 +1,30 @@
+
+body{
+    background-image: linear-gradient(
+        0deg, 
+        rgba(255, 255, 255, 0.75), 
+        rgba(255, 255, 255, 0.75)), 
+        url(https://s3.envato.com/files/79185892/Lock%20a%20background2590.jpg);
+    background-color: wheat;
+    min-height: 100%;
+}
+
+p{
+    margin: 0px 10px !important;
+}
+
+#divMain{
+    margin-top: 15% !important;
+    padding: 40px;
+    background-color: whitesmoke;
+}
+
+.m-auto{
+    margin: auto !important;
+}
+
+.auth_panel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
