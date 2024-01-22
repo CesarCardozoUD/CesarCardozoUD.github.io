@@ -28,4 +28,5 @@ br{
     font-family: CryptoAutum !important;
     font-size: 30px;
     line-height: 40px !important;
+    word-wrap: break-word !important;
 }
