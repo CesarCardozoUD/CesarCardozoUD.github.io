@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>Auth Piano</title>
+    <link rel="stylesheet" href="./styles/style_piano.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./scripts/script_piano.js" defer></script>
+</head>
+
+<body>
+    <div id="Instructivo">
+        <h4>Instrucciones:</h4>
+        <p> Ingrese las notas musícales (9 en total) para autorizarce en el sistema.</p>
+        <p> Una vez ingresadas en el orden correcto, se mostrará el secreto</p>
+        <p> En caso de que necesite reiniciar la secuencia, use el botón "Limpiar"</p>
+    </div>
+    <div class="container">
+        <div id="piano" class="wrapper">
+            <header>
+                <h2>PIANO Autenticador</h2>
+                <button onclick="reset()">Limpiar</button>
+            </header>
+            <ul class="piano-keys">
+                <li class="key white" data-note="Cm"><span></span></li>
+                <li class="key black" data-note="C#m"><span></span></li>
+                <li class="key white" data-note="Dm"><span></span></li>
+                <li class="key black" data-note="D#m"><span></span></li>
+                <li class="key white" data-note="Em"><span></span></li>
+                <li class="key white" data-note="Fm"><span></span></li>
+                <li class="key black" data-note="F#m"><span></span></li>
+                <li class="key white" data-note="Gm"><span></span></li>
+                <li class="key black" data-note="G#m"><span></span></li>
+                <li class="key white" data-note="Am"><span></span></li>
+                <li class="key black" data-note="A#m"><span></span></li>
+                <li class="key white" data-note="Bm"><span></span></li>
+                <li class="key white" data-note="C"><span></span></li>
+                <li class="key black" data-note="C#"><span></span></li>
+                <li class="key white" data-note="D"><span></span></li>
+                <li class="key black" data-note="D#"><span></span></li>
+                <li class="key white" data-note="E"><span></span></li>
+            </ul>
+        </div>
+    </div>
+    <div id="secret"></div>
+
+</body>
+
+</html>
