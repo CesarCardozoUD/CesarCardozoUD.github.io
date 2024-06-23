@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viajes Enigma - Paquetes de Tours</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+
+        header {
+            background-color: #C1DAE1;
+            color: white;
+            text-align: left;
+        }
+
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .banner {
+            background-color: #C1DAE1;
+            color: black;
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        .banner h1 {
+            font-size: 40px;
+        }
+
+        .section {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .packages {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .package {
+            background-color: #f2f2f2;
+            margin: 10px;
+            padding: 20px;
+            border-radius: 8px;
+            width: 30%;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            position: relative;
+        }
+
+        .package img {
+            width: 100%;
+            border-radius: 8px;
+        }
+
+        .coordinates {
+            font-size: 0.9em;
+            color: #555;
+        }
+
+        .sold-out {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background-color: red;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 4px;
+        }
+
+        .aviable {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background-color: green;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 4px;
+        }
+
+        .package>div>img {
+            width: 100%;
+            height: 250px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="../Assets/Images/Banner.png" style="width: 100%; height: 250px;" alt="banner" />
+    </header>
+
+    <nav>
+        <a href="https://cesarcardozoud.github.io/ViajesEnigma/home">Home</a>
+        <a href="https://cesarcardozoud.github.io/ViajesEnigma/home#servicesSection">Servicios</a>
+        <a href="https://cesarcardozoud.github.io/ViajesEnigma/home#destinationSection">Destinos</a>
+        <a href="https://cesarcardozoud.github.io/ViajesEnigma/news">Noticias</a>
+        <a href="https://cesarcardozoud.github.io/ViajesEnigma/login">Iniciar Sesión</a>
+    </nav>
+
+
+    <div class="section">
+        <h1>Nuestros Paquetes</h1>
+        <div class="packages">
+
+            <!-- Paquete 1 -->
+            <div class="package">
+                <div class="sold-out">Agotado</div>
+                <h3>Paquete Asia</h3>
+                <div>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWUU7NFE7-g2mC0RRs8tuy9ok-svbouqjcnw&s"
+                        alt="Tokyo">
+                    <h4>Tokyo Skytree - Tokyo</h4>
+                    <p>Sumérgete en la vibrante cultura y la tecnología avanzada de Tokyo.</p>
+                    <p class="coordinates">35°41'22"N 139°41'30"E</p>
+                </div>
+                <hr>
+                <div>
+                    <img src="https://lp-cms-production.s3.amazonaws.com/public/2021-06/shutterstockRF_1614073372.jpg"
+                        alt="Bangkok">
+                    <h4>The Grand Palace - Bangkok</h4>
+                    <p>La capital de Tailandia, famosa por su vida callejera y templos.</p>
+                    <p class="coordinates">13°45'9"N 100°29'39"E</p>
+                </div>
+                <hr>
+                <div>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUeRPC8Jlv46-I9qXcMcR5Nbb42RXtYx4OuA&s"
+                        alt="Seúl">
+                    <h4>Haneul Park - Seúl</h4>
+                    <p>Una metrópolis moderna con una rica historia y cultura.</p>
+                    <p class="coordinates">37°34'0"N 126°58'0"E</p>
+                </div>
+                <hr>
+                <div>
+                    <img src="https://ik.imagekit.io/tvlk/blog/2022/07/Harga-Tiket-Hong-Kong-Disneyland-Traveloka-Xperience-1-1024x683.jpg?tr=dpr-2,w-675"
+                        alt="Hong Kong">
+                    <h4>Disneyland - Hong Kong</h4>
+                    <p>Una ciudad vibrante con un impresionante horizonte y vida nocturna.</p>
+                    <p class="coordinates">22°16'0"N 114°9'0"E</p>
+                </div>
+            </div>
+
+
+            <!-- Paquete 2 -->
+            <div class="package">
+                <div class="aviable">Disponible</div>
+                <h3>Paquete Europa</h3>
+                <div>
+                    <img src="https://arc-anglerfish-arc2-prod-copesa.s3.amazonaws.com/public/WUHHIOTRHVDDVC25UXERZKEKGA.jpg"
+                        alt="París">
+                    <h4>Museo del Louvre - París</h4>
+                    <p>La ciudad del amor te espera con sus encantos únicos y su rica historia.</p>
+                    <p class="coordinates">48°51'39.5"N 2°20'09.0"E</p>
+                </div>
+                <hr>
+                <div>
+                    <img src="https://www.amsterdamtips.com/news/wp-content/uploads/2022/09/artis-amsterdam.jpg"
+                        alt="Amsterdam">
+                    <h4>Zoo Artis - Amsterdam</h4>
+                    <p>Descubre la historia y la modernidad en la capital del Reino Unido.</p>
+                    <p class="coordinates">52°21'57.0"N 4°55'00.0"E</p>
+                </div>
+                <hr>
+                <div>
+                    <img src="https://i.ytimg.com/vi/KyaduUjPyrU/maxresdefault.jpg" alt="Suiza">
+                    <h4>Grindelwald - Suiza</h4>
+                    <p>La Ciudad Eterna, llena de historia, cultura y gastronomía.</p>
+                    <p class="coordinates">46°37'08.0"N 8°01'43.0"E</p>
+                </div>
+                <hr>
+                <div>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaGfjsmByJ0LhoYlDBjIyVCqooxm6Du5iOZw&s"
+                        alt="Luxemburgo">
+                    <h4>Museo de Arte Moderno - Luxemburgo</h4>
+                    <p>Una ciudad vibrante con una historia fascinante y un futuro prometedor.</p>
+                    <p class="coordinates">49°37'00.0"N 6°08'24.0"E</p>
+                </div>
+                <hr>
+                <div>
+                    <img src="https://www.shutterstock.com/image-photo/bruges-cityscape-belfry-belfort-van-600nw-2426651569.jpg"
+                        alt="Berlín">
+                    <h4>Plaza Belfort - Brujas</h4>
+                    <p>Una ciudad vibrante con una historia fascinante y un futuro prometedor.</p>
+                    <p class="coordinates">51°12'32.0"N 3°13'28.0"E</p>
+                </div>
+
+            </div>
+
+            <!-- Paquete 3 -->
+            <div class="package">
+                <div class="sold-out">Agotado</div>
+                <h3>Paquete América</h3>
+                <div>
+                    <img src="https://olmsted.org/wp-content/uploads/2023/06/Park-Aerial_20190604_04-1-scaled.jpg"
+                        alt="New York">
+                    <h4>Central Park - New York</h4>
+                    <p>Vive la emoción de la Gran Manzana con nuestras ofertas especiales.</p>
+                    <p class="coordinates">40°42'46"N 74°0'21"W</p>
+                </div>
+                <hr>
+                <div>
+                    <img src="https://cdn.getyourguide.com/img/location/5ea88e760a777-small.jpeg/68.jpg"
+                        alt="Los Ángeles">
+                    <h4>Muelle Santa Mónica - Los Ángeles</h4>
+                    <p>Explora la ciudad de las estrellas y disfruta de sus playas.</p>
+                    <p class="coordinates">34°3'8"N 118°14'37"W</p>
+                </div>
+                <hr>
+                <div>
+                    <img src="https://freewalkertours.com/wp-content/uploads/como-llegar-al-cristo-redentor.jpg"
+                        alt="Río de Janeiro">
+                    <h4>Cristo Redentor - Río de Janeiro</h4>
+                    <p>Disfruta del carnaval y las playas de la maravillosa ciudad.</p>
+                    <p class="coordinates">22°54'30"S 43°12'27"W</p>
+                </div>
+                <hr>
+                <div>
+                    <img src="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2022/04/19/16503736092836.jpg"
+                        alt="Perú">
+                    <h4>Machu Picchu - Perú</h4>
+                    <p>Conoce la capital argentina, famosa por su cultura y su tango.</p>
+                    <p class="coordinates">13°9'49"S 72°32'46"W</p>
+                </div>
+                <hr>
+                <div>
+                    <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/e0/99/2b/caption.jpg?w=1200&h=-1&s=1"
+                        alt="Buenos Aires">
+                    <h4>Teatro Colón - Buenos Aires</h4>
+                    <p>Conoce la capital argentina, famosa por su cultura y su tango.</p>
+                    <p class="coordinates">34°36'12"S 58°22'54"W</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Viajes Enigma. Todos los derechos reservados.</p>
+    </footer>
+</body>
+
+</html>
