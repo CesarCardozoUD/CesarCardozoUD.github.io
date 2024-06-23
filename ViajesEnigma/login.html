@@ -7,7 +7,11 @@
     <title>Inicio de Sesión</title>
     <script src="https://kit.fontawesome.com/b5077ad514.js" crossorigin="anonymous"></script>
     <script type="text/javascript">
-        let isShow = true
+
+        let isShow = true;
+        let encodedCredentials = "ZXlKMWMyVnlJam9pYkdGMWNtRXVjMjltYVdFdVkzSjFlaTVzUUdkdFlXbHNMbU52YlNJc0lDSndZWE56SWpvaVEwRk1TVTlRUlNKOQ==";
+        
+
         function toggleForgetPass() {
             if(!isShow){
                 document.getElementById("forgetPass").style.display = "none";
@@ -17,6 +21,27 @@
                 isShow = false;
             }
         }
+
+        function sendToHome() {
+            window.location.href = "https://cesarcardozoud.github.io/ViajesEnigma/home";
+        }
+
+        function verifyUser() {
+            let user = document.getElementsByName("username")[0].value;
+            let pass = document.getElementsByName("password")[0].value;
+
+            if(user !== '' && pass !== '' ){
+                let credentials = JSON.parse(window.atob(window.atob(encodedCredentials)));
+                pass = pass.toUpperCase();
+                if(user === credentials.user && pass === credentials.pass) {
+                    window.location.href = "https://cesarcardozoud.github.io/ViajesEnigma/home";
+                }
+            }
+
+            document.getElementById("wrong").style.display = "inherit"
+
+        }
+
     </script>
     <style>
         body {
@@ -63,8 +88,8 @@
             border-radius: 4px;
         }
 
-        .login-container input[type="submit"] {
-            width: 95%;
+        .login-container .submit {
+            width: 70%;
             padding: 10px;
             background-color: #C1DAE1;
             border: none;
@@ -72,9 +97,10 @@
             color: black;
             font-size: 16px;
             cursor: pointer;
+            text-align: center;
         }
 
-        .login-container input[type="submit"]:hover {
+        .login-container .submit:hover {
             background-color: #C1DAE1;
         }
 
@@ -123,11 +149,12 @@
                     <input type="password" name="password" placeholder="Contraseña" required>
                 </div>
             </div>
-            <input type="submit" value="Iniciar Sesión">
+            <input class="submit" value="Iniciar Sesión" onclick="verifyUser()">
             <div>
                 <label style="line-height:32px;  margin-right: 24px; text-decoration: underline;" onclick="toggleForgetPass()">Olvidé mi contraseña</label>
-                <label style="line-height:32px; text-decoration: underline;">Volver a Inicio</label>
+                <label style="line-height:32px; text-decoration: underline;" onclick="sendToHome()">Volver a Inicio</label>
             </div>
+            <label id="wrong" style="color: red; font-size: 12px; display: none;"> * Usuario o Contraseña Incorrectos</label>
         </form>
 
         <div style="padding: 16px; margin-top: 24px; background-color: #EEE; border-radius: 12px; display: none;" id="forgetPass">
