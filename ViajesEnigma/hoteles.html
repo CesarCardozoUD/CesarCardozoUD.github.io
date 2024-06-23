@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Hoteles - Viajes Enigma</title>
+    <script src="https://kit.fontawesome.com/b5077ad514.js" crossorigin="anonymous"></script>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+        header {
+            background-color: #C1DAE1;
+            color: white;
+            text-align: left;
+        }
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .banner {
+            background-color: #C1DAE1;
+            color: black;
+            text-align: center;
+            padding: 50px 20px;
+        }
+        .banner h1 {
+            font-size: 40px;
+        }
+        .section {
+            padding: 20px;
+            text-align: center;
+        }
+        .hotels {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: left;
+        }
+        .hotel {
+            background-color: white;
+            width: 100%;
+            margin: 10px 0;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            position: relative;
+            display: flex;
+            align-items: center;
+        }
+        .hotel::before {
+            content: "";
+            display: block;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background-color: black;
+            margin-right: 15px;
+        }
+        .hotel.guion::before {
+            width: 13px;
+            height: 5px;
+            border-radius: 0;
+            background-color: black;
+        }
+
+        .score {
+            color: #b5ad21;
+        }
+
+        .hotelContainer {
+            display: flex;
+            width: 100%;
+        }
+
+        .name {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            width: 25%;
+        }
+
+        .description {
+            width: 75%;
+        }
+
+        .name > h3 {
+            margin: 4px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="../Assets/Images/Banner.png" style="width: 100%; height: 250px;" alt="banner"/>
+    </header>
+
+    <nav>
+        <a href="https://cesarcardozoud.github.io/ViajesEnigma/home">Home</a>
+        <a href="https://cesarcardozoud.github.io/ViajesEnigma/home#servicesSection">Servicios</a>
+        <a href="https://cesarcardozoud.github.io/ViajesEnigma/home#destinationSection">Destinos</a>
+        <a href="https://cesarcardozoud.github.io/ViajesEnigma/news">Noticias</a>
+        <a href="https://cesarcardozoud.github.io/ViajesEnigma/login">Iniciar Sesión</a>
+    </nav>
+
+    <div class="section">
+        <h2>Hoteles Disponibles</h2>
+        <div class="hotels">
+            <div class="hotelContainer">
+                <div class="hotel">
+                    <div class="name">
+                        <h3>Hotel Aurora</h3>
+                        <div class="score">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="description">
+                        <p>Un hotel acogedor con vistas impresionantes del paisaje natural, perfecto para una escapada relajante.</p>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="hotelContainer">
+                <div class="hotel guion">
+                    <div class="name">
+                        <h3>Hotel Bella Vista</h3>
+                        <div class="score">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                    <div class="description">
+                        <p>Experiencia de lujo en la cima de la montaña, con servicios de primera clase y vistas panorámicas incomparables.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hotelContainer">
+                <div class="hotel">
+                    <div class="name">
+                        <h3>Hotel Sol y Mar</h3>
+                        <div class="score">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                    <div class="description">
+                        <p>Disfruta del sol y el mar en este hermoso hotel frente a la playa, con actividades acuáticas y relajación asegurada.</p>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="hotelContainer">
+                <div class="hotel">
+                    <div class="name">
+                        <h3>Hotel Estrella</h3>
+                        <div class="score">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="description">
+                        <p>El mejor lugar para observar las estrellas en un entorno natural, con telescopios disponibles y guías astronómicos.</p>
+                    </div>
+                </div>
+            </div>
+            <hr>
+
+            <!-- -------- -->
+
+        
+            <div class="hotelContainer">
+                <div class="hotel">
+                    <div class="name">
+                        <h3>Hotel Oceano</h3>
+                        <div class="score">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="description">
+                        <p>Relájate con el sonido del océano desde tu habitación en este hotel costero, con acceso directo a la playa.</p>
+                    </div>
+                </div>
+            </div>
+            <hr>
+
+            <!-- -------- -->
+
+        
+            <div class="hotelContainer">
+                <div class="hotel guion">
+                    <div class="name">
+                        <h3>Hotel Luna Llena</h3>
+                        <div class="score">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                    <div class="description">
+                        <p>Perfecto para una escapada romántica, con cenas a la luz de la luna y suites decoradas con elegancia.</p>
+                    </div>
+                </div>
+            </div>
+            <hr>
+
+            <!-- -------- -->
+
+            
+            <div class="hotelContainer">
+                <div class="hotel">
+                    <div class="name">
+                        <h3>Hotel Brillante</h3>
+                        <div class="score">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="description">
+                        <p>Luce brillante con los mejores servicios, diseñado para ofrecer una experiencia de lujo inigualable.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hotelContainer">
+                <div class="hotel guion">
+                    <div class="name">
+                        <h3>Hotel Costa Dorada</h3>
+                        <div class="score">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="description">
+                        <p>Explora la belleza dorada de nuestras costas, con actividades al aire libre y vistas impresionantes.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hotelContainer">
+                <div class="hotel">
+                    <div class="name">
+                        <h3>Hotel Encantado</h3>
+                        <div class="score">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="description">
+                        <p>Una estancia encantadora para toda la familia, con actividades recreativas y entretenimiento para todos.</p>
+                    </div>
+                </div>
+            </div>
+            <hr>
+
+            <!-- -------- -->
+
+        
+            <div class="hotelContainer">
+                <div class="hotel">
+                    <div class="name">
+                        <h3>Hotel Paraíso</h3>
+                        <div class="score">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                    <div class="description">
+                        <p>Tu propio pedazo de paraíso en la tierra, rodeado de jardines exuberantes y piscinas cristalinas.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hotelContainer">
+                <div class="hotel guion">
+                    <div class="name">
+                        <h3>Hotel Amanecer</h3>
+                        <div class="score">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                    <div class="description">
+                        <p>Despierta con los amaneceres más espectaculares en este refugio tranquilo y rejuvenecedor.</p>
+                    </div>
+                </div>
+            </div>
+            <hr>
+
+            <!-- -------- -->
+
+            
+            <div class="hotelContainer">
+                <div class="hotel guion">
+                    <div class="name">
+                        <h3>Hotel Fantástico</h3>
+                        <div class="score">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="description">
+                        <p>Una experiencia fantástica en cada esquina, con servicios personalizados y atención al detalle.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="hotelContainer">
+                <div class="hotel guion">
+                    <div class="name">
+                        <h3>Hotel Gran Sol</h3>
+                        <div class="score">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="description">
+                        <p>Bajo el gran sol, disfruta de la vida con actividades al aire libre y un clima perfecto todo el año.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="hotelContainer">
+                <div class="hotel guion">
+                    <div class="name">
+                        <h3>Hotel Horizonte</h3>
+                        <div class="score">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="description">
+                        <p>Mira hacia el horizonte y sueña en grande, con amplias vistas y espacios abiertos para relajarte.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Viajes Enigma. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

@@ -205,7 +205,7 @@
                 <hr>
                 <p>Encuentra Vuelos a tus destinos favoritos.</p>
             </div>
-            <div>
+            <div onclick="sendToNewlocation('atracciones')">
                 <i class="fas fa-map-marked-alt iconoServicio"></i>
                 <h3>Atracciones Turisticas</h3>
                 <hr>
@@ -217,13 +217,13 @@
                 <hr>
                 <p>Alquila vehiculos desde el aeropuerto hasta cualquier locación que elijas.</p>
             </div>
-            <div>
+            <div onclick="sendToNewlocation('restaurantes')">
                 <i class="fas fa-hamburger iconoServicio"></i>
                 <h3>Restaurantes</h3>
                 <hr>
                 <p>Deleitate con restaurantes 5 estrellas en cada uno de tus destinos.</p>
             </div>
-            <div>
+            <div onclick="sendToNewlocation('hoteles')">
                 <i class="fas fa-hotel iconoServicio"></i>
                 <h3>Hoteles</h3>
                 <hr>
@@ -242,9 +242,9 @@
             {name: "tours", url: "https://cesarcardozoud.github.io/ViajesEnigma/tours"},
             {name: "vuelos", url: "https://cesarcardozoud.github.io/ViajesEnigma/flights"},
             {name: "taxi", url: "https://cesarcardozoud.github.io/ViajesEnigma/flights"},
-            {name: "atracciones", url:""},
-            {name: "restaurantes", url: ""},
-            {name: "hoteles", url: ""}
+            {name: "atracciones", url: "https://cesarcardozoud.github.io/ViajesEnigma/tours"},
+            {name: "restaurantes", url: "https://cesarcardozoud.github.io/ViajesEnigma/hoteles"},
+            {name: "hoteles", url: "https://cesarcardozoud.github.io/ViajesEnigma/hoteles"}
         ];
         const slides = document.querySelector('.slides');
         const totalSlides = slides.children.length;
