@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viajes Enigma - Inicio</title>
+    <script src="https://kit.fontawesome.com/b5077ad514.js" crossorigin="anonymous"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #C1DAE1;
+            color: white;
+            text-align: left;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .banner {
+            background-image: url('banner.jpg');
+            background-size: cover;
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+        }
+
+        .banner h1 {
+            font-size: 50px;
+        }
+
+        .section {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .services,
+        .destinations {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .services div,
+        .destinations div {
+            background-color: #f2f2f2;
+            margin: 10px;
+            padding: 20px;
+            border-radius: 8px;
+            flex: 1;
+            min-width: 200px;
+            max-width: 300px;
+        }
+
+        .iconoServicio {
+            font-size: 72px;
+        }
+
+
+
+
+        .carousel {
+            margin: 20px 40px;
+            position: relative;
+            overflow: hidden;
+            border-radius: 8px;
+        }
+
+        .slides {
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+        }
+
+        .slides div {
+            min-width: 25%;
+            padding: 6px;
+            transition: opacity 1s ease-in-out;
+        }
+
+        .carousel img {
+            width: 100%;
+            border-radius: 8px;
+        }
+
+        .navigation {
+            position: absolute;
+            top: 50%;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            transform: translateY(-50%);
+        }
+
+        .navigation button {
+            background-color: rgba(0, 0, 0, 0.5);
+            border: none;
+            color: white;
+            padding: 10px;
+            cursor: pointer;
+            border-radius: 50%;
+            outline: none;
+        }
+
+        .navigation button:hover {
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="../Assets/Images/Banner.png" style="width: 100%; height: 250px;" />
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Servicios</a>
+        <a href="#">Destinos</a>
+        <a href="#">Iniciar Sesión</a>
+    </nav>
+
+    <div
+        style="background-color: white; margin: 0px; display: flex; justify-content: center; font-family: Arial, Helvetica, sans-serif;">
+        <h3 style="color: white;  margin: 6px auto;">::::::::::::::::::::::::::: LETRA E :::::::::::::::::::::::::::
+        </h3>
+    </div>
+
+    <div class="section">
+        <h1>Destinos Populares</h1>
+        <div class="carousel">
+            <div class="slides">
+                <div style="padding: 6px;">
+                    <h2>París 🇫🇷</h2>
+                    <img src="https://viajes.nationalgeographic.com.es/medio/2024/02/14/torre-eiffel_05367043_96010158_240214093531_800x800.jpg" alt="París"/>
+                </div>
+                <div>
+                    <h2>Brujas 🇧🇪</h2>
+                    <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/8b/94/f5/photo0jpg.jpg" alt="Bruges"/>
+                </div>
+                <div>
+                    <h2>Florencia 🇮🇹</h2>
+                    <img src="https://hips.hearstapps.com/hmg-prod/images/elle-florencia-catedral-duomo-1578418095.jpg" alt="Florencia"/>
+                </div>
+                <div>
+                    <h2>Amsterdam  🇳🇱</h2>
+                    <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/23/f2/68/jordaan-amsterdam.jpg?w=500&h=500" alt="Amsterdam"/>
+                </div>
+                <div>
+                    <h2>Lisboa  🇵🇹</h2>
+                    <img src="https://lp-cms-production.imgix.net/2022-12/shutterstockRF_755689225.jpg?fit=crop&ar=1%3A1&w=1200&auto=format&q=75" alt="Lisbon"/>
+                </div>
+                <div>
+                    <h2>Barcelona  🇪🇸</h2>
+                    <img src="https://media.revistaad.es/photos/60c2285502ca0c0a1c056de4/master/w_1600%2Cc_limit/254668.jpg" alt="Barcelona"/>
+                </div>
+            </div>
+            <div class="navigation">
+                <button onclick="prevSlide()">&#10094;</button>
+                <button onclick="nextSlide()">&#10095;</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h1>Servicios</h1>
+        <div class="services">
+            <div>
+                <i class="fas fa-globe-americas iconoServicio"></i>
+                <h3>Tours</h3>
+                <hr>
+                <p>Ofrecemos los mejores precios en vuelos internacionales.</p>
+            </div>
+            <div>
+                <i class="fas fa-plane iconoServicio"></i>
+                <h3>Vuelos</h3>
+                <hr>
+                <p>Encuentra alojamientos únicos y confortables en todo el mundo.</p>
+            </div>
+            <div>
+                <i class="fas fa-taxi iconoServicio"></i>
+                <h3>Alquiler de Coches</h3>
+                <hr>
+                <p>Paquetes turísticos completos para tus vacaciones soñadas.</p>
+            </div>
+            <div>
+                <i class="fas fa-map-marked-alt iconoServicio"></i>
+                <h3>Atracciones Turisticas</h3>
+                <hr>
+                <p>Paquetes turísticos completos para tus vacaciones soñadas.</p>
+            </div>
+            <div>
+                <i class="fas fa-hamburger iconoServicio"></i>
+                <h3>Restaurantes</h3>
+                <hr>
+                <p>Paquetes turísticos completos para tus vacaciones soñadas.</p>
+            </div>
+            <div>
+                <i class="fas fa-hotel iconoServicio"></i>
+                <h3>Hoteles</h3>
+                <hr>
+                <p>Paquetes turísticos completos para tus vacaciones soñadas.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Viajes Enigma. Todos los derechos reservados.</p>
+    </footer>
+
+
+
+
+    <script>
+        let slideIndex = 0;
+        const slides = document.querySelector('.slides');
+        const totalSlides = slides.children.length;
+        const visibleSlides = 4;
+
+        function showSlide(index) {
+            slides.style.transform = `translateX(${-index * (100 / visibleSlides)}%)`;
+        }
+
+        function nextSlide() {
+            slideIndex = (slideIndex + 1) % (totalSlides - visibleSlides + 1);
+            showSlide(slideIndex);
+        }
+
+        function prevSlide() {
+            slideIndex = (slideIndex - 1 + totalSlides - visibleSlides + 1) % (totalSlides - visibleSlides + 1);
+            showSlide(slideIndex);
+        }
+    </script>
+</body>
+
+</html>

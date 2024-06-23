@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de Sesión</title>
+    <script src="https://kit.fontawesome.com/b5077ad514.js" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        let isShow = true
+        function toggleForgetPass() {
+            if(!isShow){
+                document.getElementById("forgetPass").style.display = "none";
+                isShow = true;
+            } else {
+                document.getElementById("forgetPass").style.display = "inherit";
+                isShow = false;
+            }
+        }
+    </script>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f2f2f2;
+            font-family: Arial, sans-serif;
+            background-image: url("../Assets/Images/Background.webp");
+        }
+
+        h2 {
+            margin:0px
+        }
+
+        table {
+            width: 100%;
+            padding: 12px 48px 0px 48px;
+            border-top: 1px #DDD solid;
+        }
+
+        .login-container {
+            background-color: white;
+            padding: 48px 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 400px;
+            text-align: center;
+        }
+
+        .form-container {
+            display: flex; 
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .login-container input[type="text"],
+        .login-container input[type="password"] {
+            width: 80%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #CCC;
+            border-radius: 4px;
+        }
+
+        .login-container input[type="submit"] {
+            width: 95%;
+            padding: 10px;
+            background-color: #C1DAE1;
+            border: none;
+            border-radius: 4px;
+            color: black;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .login-container input[type="submit"]:hover {
+            background-color: #C1DAE1;
+        }
+
+        .tooltip {
+            position: relative;
+            display: inline-block;
+            cursor: pointer;
+        }
+
+        .tooltip .tooltiptext {
+            visibility: hidden;
+            width: 140px;
+            background-color: black;
+            color: #fff;
+            text-align: center;
+            border-radius: 6px;
+            padding: 5px;
+            position: absolute;
+            z-index: 1;
+            bottom: 125%;
+            /* Ajusta la posición del tooltip */
+            left: 50%;
+            margin-left: -70px;
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+
+        .tooltip:hover .tooltiptext {
+            visibility: visible;
+            opacity: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="login-container">
+        <h2>Viajes Enigma</h2>
+        <form action="/login" method="post" >
+            <div style=" margin-top: 20px; margin-bottom: 20px;">
+                <div class="form-container">
+                    <i class="fas fa-user tooltip"><span class="tooltiptext">El primer carácter</span></i>
+                    <input type="text" name="username" placeholder="Nombre de usuario" required>
+                </div>
+                <div class="form-container">
+                    <i class="fas fa-lock tooltip"><span class="tooltiptext">UA==</span></i>
+                    <input type="password" name="password" placeholder="Contraseña" required>
+                </div>
+            </div>
+            <input type="submit" value="Iniciar Sesión">
+            <div>
+                <label style="line-height:32px;  margin-right: 24px; text-decoration: underline;" onclick="toggleForgetPass()">Olvidé mi contraseña</label>
+                <label style="line-height:32px; text-decoration: underline;">Volver a Inicio</label>
+            </div>
+        </form>
+
+        <div style="padding: 16px; margin-top: 24px; background-color: #EEE; border-radius: 12px; display: none;" id="forgetPass">
+            <h2 style=" margin-bottom: 12px;">La clave está aquí:</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>1</th>
+                        <th>2</th>
+                        <th>3</th>
+                        <th>4</th>
+                        <th>5</th>
+                        <th>6</th>
+                        <th>7</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><i class="fas fa-taxi"></i></td>
+                        <td><i class="fas fa-globe-americas"></i></td>
+                        <td><i class="fas fa-user"></i></td>
+                        <td><i class="fas fa-newspaper"></i></td>
+                        <td><i class="fas fa-hotel"></i></td>
+                        <td><i class="fas fa-lock"></i></td>
+                        <td><i class="fas fa-home"></i></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>
