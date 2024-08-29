@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica Casos Clínicos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            background-color: #DDEEFF;
+        }
+        h1{
+            font-size: 42px;
+            text-align: center;
+            margin-bottom: 12px;
+        }
+        h2 {
+            color: #2c3e50;
+            border-bottom: 2px solid #2c3e50;
+            padding-bottom: 5px;
+        }
+        h3 {
+            color: #34495e;
+            margin-top: 10px;
+        }
+        p{
+            margin-left: 40px;
+        }
+        button{
+            font-size: 20px;
+            border: none;
+            color: white;
+            background-color: #BBCCFF;
+            padding: 16px;
+            border-radius: 12px;
+            cursor: pointer;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .hidden{
+            display: none;
+        }
+        .show{
+            display: inherit;
+        }
+        .list-item {
+            margin-left: 20px;
+        }
+        .wrapper{
+            margin: 12px auto;
+            background-color: #FAFAFA;
+            padding: 20px 40px;
+            border-radius: 12px;
+            max-width: 800px;
+        }
+        .buttonWrapper{
+            display: flex;
+            justify-content: space-around;
+        }
+    </style>
+    <script src="https://kit.fontawesome.com/b5077ad514.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <h1>Reporte de Caso Clínico <i class="fas fa-notes-medical"></i> </h1>
+    <div class="wrapper">
+        <div id="contenido"></div>
+    </div>
+    <div class="buttonWrapper">
+        <button onclick="showRsta()">Mostrar respuesta</button>
+        <button onclick="rerollCaso()">Cambiar Caso</button>
+    </div>
+
+    <!-- Script para cargar y renderizar el JSON -->
+    <script src="scripts/process-mock.js"></script>
+    <script>
+        // Llamar a la función de renderizado
+        mostrarCasoClinico();
+    </script>
+</body>
+</html>

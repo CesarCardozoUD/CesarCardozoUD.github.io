@@ -1,0 +1,997 @@
+[
+    {
+        "Antecedentes": {
+            "Paciente": "Juan C",
+            "Edad": "35 años",
+            "Sexo": "Masculino",
+            "Ocupación": "Obrero de construcción",
+            "Historial Médico": [
+                "Sin antecedentes médicos relevantes.",
+                "No fumador, no bebedor."
+            ]
+        },
+        "Motivo de Consulta": "Ingresado a UCI tras sufrir quemaduras extensas en un incendio.",
+        "Historia de la Enfermedad Actual": "Juan sufrió quemaduras de tercer grado en más del 50% de la superficie corporal tras un accidente laboral. Fue trasladado de emergencia a la UCI debido a la gravedad de las lesiones y la necesidad de ventilación mecánica.",
+        "Examen Físico": {
+            "Signos Vitales": {
+                "FC": "130 lpm",
+                "FR": "20 rpm (ventilado)",
+                "TA": "85/50 mmHg",
+                "T": "38.2°C"
+            },
+            "Peso": "75 kg (estimado)",
+            "Talla": "180 cm",
+            "Abdomen": "Blando, no doloroso.",
+            "Neurológico": "Sedado, no evaluable.",
+            "Otros": "Quemaduras extensas en el torso, extremidades y cara."
+        },
+        "Laboratorio y Estudios de Imagen": {
+            "Laboratorios": [
+                {
+                    "Lab": "Hemoglobina",
+                    "Val": "14 g/dL"
+                },
+                {
+                    "Lab": "Hematocrito",
+                    "Val": "42%"
+                },
+                {
+                    "Lab": "BUN",
+                    "Val": "25 mg/dL"
+                },
+                {
+                    "Lab": "Creatinina",
+                    "Val": "1.0 mg/dL"
+                },
+                {
+                    "Lab": "Electrolitos",
+                    "Val": "Na: 145 mEq/L, K: 4.5 mEq/L"
+                },
+                {
+                    "Lab": "Proteína C Reactiva (PCR)",
+                    "Val": "Elevada"
+                }
+            ],
+            "Estudios de Imagen": [
+                {
+                    "Img": "Radiografía de tórax",
+                    "Val": "Infiltrados pulmonares bilaterales."
+                }
+            ]
+        },
+        "Diagnóstico": "Paciente gran quemado con shock hipovolémico.",
+        "Tratamiento Inicial": "Reposición agresiva de líquidos, analgesia, cobertura antibiótica de amplio espectro.",
+        "Evolución Clinica": "Estabilización hemodinámica parcial tras la reposición de líquidos, continúa con soporte ventilatorio.",
+        "Tratamiento Continuado": "Monitoreo continuo, manejo de la ventilación mecánica, tratamiento de las infecciones secundarias.",
+        "Complicaciones": "Riesgo elevado de sepsis.",
+        "Resolución": "N/A",
+        "Conclusión": "Paciente gran quemado en estado crítico, requiere manejo intensivo multidisciplinario.",
+        "Respuesta Caso": {
+            "Plan Nutricional Inicial": "Nutrición Enteral (NET)",
+            "Requerimientos Nutricionales": {
+                "Calorías": "3000 kcal/día",
+                "Proteinas": "150 g/día"
+            },
+            "Conducta Nutricional": {
+                "Tipo de dieta": "Hipercalórica, hiperproteica",
+                "Vía de acceso": "Sonda nasogástrica",
+                "Tipo de fórmula": "Fórmula especializada para grandes quemados"
+            },
+            "Recomendaciones Nutricionales": [
+                "Ajustar el aporte calórico según la respuesta metabólica.",
+                "Monitoreo de las necesidades de micronutrientes, especialmente zinc y vitamina C."
+            ]
+        }
+    },
+    {
+        "Antecedentes": {
+            "Paciente": "Daniel P",
+            "Edad": "2 años",
+            "Sexo": "Masculino",
+            "Ocupación": "N/A",
+            "Historial Médico": [
+                "Nacido a término sin complicaciones.",
+                "Diagnóstico reciente de parálisis cerebral infantil (PCI).",
+                "Sin antecedentes familiares de enfermedades relevantes."
+            ]
+        },
+        "Motivo de Consulta": "Dificultad para alimentarse por vía oral y pobre ganancia de peso.",
+        "Historia de la Enfermedad Actual": "Daniel ha presentado dificultades para masticar y tragar desde el inicio de la alimentación complementaria. Ha tenido una ganancia de peso insuficiente y presenta signos de desnutrición leve.",
+        "Examen Físico": {
+            "Signos Vitales": {
+                "FC": "105 lpm",
+                "FR": "24 rpm",
+                "TA": "95/60 mmHg",
+                "T": "36.7°C"
+            },
+            "Peso": "10 kg (percentil 10)",
+            "Talla": "80 cm (percentil 10)",
+            "Abdomen": "Blando, no doloroso, sin masas palpables.",
+            "Neurológico": "Hipertonía en las extremidades, reflejos exagerados.",
+            "Otros": "Piel seca, uñas quebradizas."
+        },
+        "Laboratorio y Estudios de Imagen": {
+            "Laboratorios": [
+                {
+                    "Lab": "Hemoglobina",
+                    "Val": "11.5 g/dL"
+                },
+                {
+                    "Lab": "Hematocrito",
+                    "Val": "35%"
+                },
+                {
+                    "Lab": "Albúmina",
+                    "Val": "3.8 g/dL"
+                }
+            ],
+            "Estudios de Imagen": [
+                {
+                    "Img": "Resonancia magnética cerebral",
+                    "Val": "lesiones periventriculares compatibles con PCI."
+                }
+            ]
+        },
+        "Diagnóstico": "Desnutrición leve secundaria a PCI con dificultad para la alimentación oral.",
+        "Tratamiento Inicial": "Iniciar nutrición enteral a través de sonda nasogástrica.",
+        "Evolución Clinica": "Mejoría en la ingesta calórica y ganancia de peso inicial.",
+        "Tratamiento Continuado": "Continuar con nutrición enteral y fisioterapia para mejorar la motricidad oral.",
+        "Complicaciones": "Riesgo de aspiración.",
+        "Resolución": "Aumento progresivo de peso y mejora en el estado nutricional.",
+        "Conclusión": "PCI con complicaciones nutricionales manejadas exitosamente con nutrición enteral.",
+        "Respuesta Caso": {
+            "Plan Nutricional Inicial": "Nutrición Enteral (NET)",
+            "Requerimientos Nutricionales": {
+                "Calorías": "1100 kcal/día (110 kcal/kg/día)",
+                "Proteinas": "20 g/día (2 g/kg/día)"
+            },
+            "Conducta Nutricional": {
+                "Tipo de dieta": "Normocalorica",
+                "Vía de acceso": "Sonda nasogástrica",
+                "Tipo de fórmula": "Fórmula polimérica completa"
+            },
+            "Recomendaciones Nutricionales": [
+                "Realizar controles periódicos de peso y estado nutricional.",
+                "Incluir sesiones de terapia ocupacional para mejorar las habilidades de alimentación oral."
+            ]
+        }
+    },
+    {
+        "Antecedentes": {
+            "Paciente": "Luisa M",
+            "Edad": "56 años",
+            "Sexo": "Femenino",
+            "Ocupación": "Ama de casa",
+            "Historial Médico": [
+                "Hipertensión arterial crónica.",
+                "Diabetes mellitus tipo 2.",
+                "Infarto previo hace 2 años."
+            ]
+        },
+        "Motivo de Consulta": "Ingresada a UCI por estado crítico tras presentar disnea severa y dolor torácico.",
+        "Historia de la Enfermedad Actual": "Luisa presentó un episodio de dolor torácico opresivo, acompañado de dificultad respiratoria y pérdida de conocimiento. Fue trasladada de emergencia y diagnosticada con un infarto agudo de miocardio complicado.",
+        "Examen Físico": {
+            "Signos Vitales": {
+                "FC": "95 lpm",
+                "FR": "28 rpm",
+                "TA": "90/60 mmHg",
+                "T": "37.0°C"
+            },
+            "Peso": "70 kg",
+            "Talla": "165 cm",
+            "Abdomen": "Blando, sin dolor a la palpación.",
+            "Neurológico": "Consciente, orientada.",
+            "Otros": "Edema en miembros inferiores, crepitantes pulmonares."
+        },
+        "Laboratorio y Estudios de Imagen": {
+            "Laboratorios": [
+                {"Lab": "Troponinas", "Val": "Elevadas"},
+                {"Lab": "BNP", "Val": "Elevado"},
+                {"Lab": "Glucosa", "Val": "220 mg/dL"},
+                {"Lab": "Creatinina", "Val": "1.2 mg/dL"},
+                {"Lab": "Electrolitos", "Val": "Na: 136 mEq/L, K: 4.2 mEq/L"}
+            ],
+            "Estudios de Imagen": [
+                {"Img": "ECG", "Val": "Elevación del ST en derivaciones inferiores."},
+                {"Img": "Ecocardiograma", "Val": "Fracción de eyección disminuida, disfunción ventricular izquierda severa."}
+            ]
+        },
+        "Diagnóstico": "Infarto agudo de miocardio complicado con insuficiencia cardiaca.",
+        "Tratamiento Inicial": "Manejo con doble antiagregación plaquetaria, estatinas, inhibidores de la ECA, diuréticos.",
+        "Evolución Clinica": "Estabilización hemodinámica parcial, se mantiene en UCI para monitoreo continuo.",
+        "Tratamiento Continuado": "Continúa con soporte inotrópico, control estricto de glucemia y presión arterial.",
+        "Complicaciones": "Riesgo elevado de arritmias y shock cardiogénico.",
+        "Resolución": "N/A",
+        "Conclusión": "Paciente crítico con infarto agudo de miocardio, requiere monitoreo intensivo y manejo multidisciplinario.",
+        "Respuesta Caso": {
+            "Plan Nutricional Inicial": "Nutrición Enteral (NET)",
+            "Requerimientos Nutricionales": {
+                "Calorías": "1800 kcal/día",
+                "Proteinas": "70 g/día"
+            },
+            "Conducta Nutricional": {
+                "Tipo de dieta": "Hipocalórica, controlada en sodio",
+                "Vía de acceso": "Sonda nasogástrica",
+                "Tipo de fórmula": "Fórmula baja en sodio"
+            },
+            "Recomendaciones Nutricionales": [
+                "Monitoreo de balance hídrico y electrolitos.",
+                "Ajuste en el aporte calórico según evolución clínica."
+            ]
+        }
+    },
+    {
+        "Antecedentes": {
+            "Paciente": "Carlos T",
+            "Edad": "42 años",
+            "Sexo": "Masculino",
+            "Ocupación": "Docente",
+            "Historial Médico": [
+                "Diagnóstico de VIH hace 10 años.",
+                "Historial de infecciones oportunistas, incluyendo neumonía.",
+                "Tratamiento antirretroviral en curso."
+            ]
+        },
+        "Motivo de Consulta": "Ingreso a UCI por neumonía grave con insuficiencia respiratoria aguda.",
+        "Historia de la Enfermedad Actual": "Carlos fue hospitalizado tras desarrollar dificultad respiratoria severa, tos productiva y fiebre. En la UCI se confirmó neumonía por Pneumocystis jirovecii.",
+        "Examen Físico": {
+            "Signos Vitales": {
+                "FC": "110 lpm",
+                "FR": "30 rpm",
+                "TA": "95/55 mmHg",
+                "T": "39.0°C"
+            },
+            "Peso": "60 kg",
+            "Talla": "170 cm",
+            "Abdomen": "Blando, no doloroso.",
+            "Neurológico": "Consciente, orientado, pero agotado.",
+            "Otros": "Estertores difusos en ambos campos pulmonares."
+        },
+        "Laboratorio y Estudios de Imagen": {
+            "Laboratorios": [
+                {"Lab": "CD4", "Val": "150 células/mm³"},
+                {"Lab": "Carga viral", "Val": "500,000 copias/mL"},
+                {"Lab": "Hemoglobina", "Val": "11 g/dL"},
+                {"Lab": "Glucosa", "Val": "80 mg/dL"},
+                {"Lab": "Creatinina", "Val": "0.9 mg/dL"}
+            ],
+            "Estudios de Imagen": [
+                {"Img": "Radiografía de tórax", "Val": "Infiltrados intersticiales bilaterales."},
+                {"Img": "TC de tórax", "Val": "Vidrio esmerilado difuso, sugerente de neumonía por Pneumocystis."}
+            ]
+        },
+        "Diagnóstico": "Neumonía por Pneumocystis jirovecii en paciente con VIH avanzado.",
+        "Tratamiento Inicial": "Iniciar tratamiento con trimetoprim-sulfametoxazol, corticosteroides, y soporte ventilatorio.",
+        "Evolución Clinica": "Respuesta parcial al tratamiento, con mejoría en los niveles de oxigenación.",
+        "Tratamiento Continuado": "Continuar con terapia antirretroviral y antibióticos, monitorización intensiva de la función pulmonar.",
+        "Complicaciones": "Riesgo elevado de sepsis.",
+        "Resolución": "N/A",
+        "Conclusión": "Paciente VIH con neumonía grave, en estado crítico, requiere manejo integral en UCI.",
+        "Respuesta Caso": {
+            "Plan Nutricional Inicial": "Nutrición Enteral (NET)",
+            "Requerimientos Nutricionales": {
+                "Calorías": "2000 kcal/día",
+                "Proteinas": "80 g/día"
+            },
+            "Conducta Nutricional": {
+                "Tipo de dieta": "Normocalórica",
+                "Vía de acceso": "Sonda nasogástrica",
+                "Tipo de fórmula": "Fórmula normoproteica"
+            },
+            "Recomendaciones Nutricionales": [
+                "Monitoreo de la función gastrointestinal y ajuste de la alimentación según tolerancia.",
+                "Evaluación y ajuste del aporte calórico según la evolución del paciente."
+            ]
+        }
+    },
+    {
+        "Antecedentes": {
+            "Paciente": "María F",
+            "Edad": "67 años",
+            "Sexo": "Femenino",
+            "Ocupación": "Jubilada",
+            "Historial Médico": [
+                "Hipertensión arterial crónica.",
+                "Diabetes mellitus tipo 2.",
+                "Enfermedad renal crónica en estadio 3."
+            ]
+        },
+        "Motivo de Consulta": "Ingreso a UCI por sepsis de origen urinario.",
+        "Historia de la Enfermedad Actual": "María desarrolló fiebre alta, confusión y disminución de la producción de orina tras una infección del tracto urinario. Fue trasladada a la UCI por sepsis severa.",
+        "Examen Físico": {
+            "Signos Vitales": {
+                "FC": "120 lpm",
+                "FR": "26 rpm",
+                "TA": "85/40 mmHg",
+                "T": "39.5°C"
+            },
+            "Peso": "65 kg",
+            "Talla": "160 cm",
+            "Abdomen": "Blando, doloroso en la región suprapúbica.",
+            "Neurológico": "Consciente pero confusa.",
+            "Otros": "Piel caliente, sudorosa."
+        },
+        "Laboratorio y Estudios de Imagen": {
+            "Laboratorios": [
+                {"Lab": "Hemoglobina", "Val": "10 g/dL"},
+                {"Lab": "Glucosa", "Val": "250 mg/dL"},
+                {"Lab": "Creatinina", "Val": "2.0 mg/dL"},
+                {"Lab": "Lactato", "Val": "5 mmol/L"},
+                {"Lab": "Leucocitos", "Val": "18,000 células/mm³"}
+            ],
+            "Estudios de Imagen": [
+                {"Img": "Ecografía renal", "Val": "Hidronefrosis leve bilateral."},
+                {"Img": "Tomografía abdominal", "Val": "Descartada obstrucción urológica."}
+            ]
+        },
+        "Diagnóstico": "Sepsis secundaria a infección del tracto urinario.",
+        "Tratamiento Inicial": "Antibióticos de amplio espectro, reposición agresiva de líquidos, soporte vasopresor.",
+        "Evolución Clinica": "Mejoría parcial en los signos vitales, lactato en descenso.",
+        "Tratamiento Continuado": "Monitoreo intensivo de la función renal y hemodinámica, ajuste de antibióticos según cultivo.",
+        "Complicaciones": "Riesgo elevado de insuficiencia multiorgánica.",
+        "Resolución": "N/A",
+        "Conclusión": "Paciente en estado crítico por sepsis, en manejo intensivo en UCI.",
+        "Respuesta Caso": {
+            "Plan Nutricional Inicial": "Nutrición Parenteral Total (NPT)",
+            "Requerimientos Nutricionales": {
+                "Calorías": "1500 kcal/día",
+                "Proteinas": "70 g/día"
+            },
+            "Conducta Nutricional": {
+                "Tipo de dieta": "N/A",
+                "Vía de acceso": "Vía venosa central",
+                "Tipo de fórmula": "Solución parenteral balanceada"
+            },
+            "Recomendaciones Nutricionales": [
+                "Monitoreo estrecho de electrolitos y función hepática.",
+                "Evaluación continua para la transición a nutrición enteral cuando sea posible."
+            ]
+        }
+    },
+    {
+        "Antecedentes": {
+            "Paciente": "Pedro R",
+            "Edad": "50 años",
+            "Sexo": "Masculino",
+            "Ocupación": "Taxista",
+            "Historial Médico": [
+                "Hipertensión arterial.",
+                "Dislipidemia.",
+                "Infarto previo hace 3 años."
+            ]
+        },
+        "Motivo de Consulta": "Ingreso a UCI por shock cardiogénico.",
+        "Historia de la Enfermedad Actual": "Pedro presentó dolor torácico intenso y dificultad respiratoria, seguidos de un colapso cardiovascular. Fue ingresado en la UCI con diagnóstico de shock cardiogénico.",
+        "Examen Físico": {
+            "Signos Vitales": {
+                "FC": "130 lpm",
+                "FR": "30 rpm",
+                "TA": "70/40 mmHg",
+                "T": "36.8°C"
+            },
+            "Peso": "80 kg",
+            "Talla": "175 cm",
+            "Abdomen": "Blando, no doloroso.",
+            "Neurológico": "Consciente, pero somnoliento.",
+            "Otros": "Piel fría, cianótica."
+        },
+        "Laboratorio y Estudios de Imagen": {
+            "Laboratorios": [
+                {"Lab": "Troponinas", "Val": "Muy elevadas"},
+                {"Lab": "BNP", "Val": "Muy elevado"},
+                {"Lab": "Creatinina", "Val": "1.5 mg/dL"},
+                {"Lab": "Lactato", "Val": "6 mmol/L"}
+            ],
+            "Estudios de Imagen": [
+                {"Img": "ECG", "Val": "Isquemia extensa en derivaciones anteriores."},
+                {"Img": "Ecocardiograma", "Val": "Fracción de eyección severamente reducida, disfunción ventricular global."}
+            ]
+        },
+        "Diagnóstico": "Shock cardiogénico secundario a infarto agudo de miocardio.",
+        "Tratamiento Inicial": "Soporte inotrópico, ventilación mecánica, manejo con vasopresores.",
+        "Evolución Clinica": "Estabilización parcial con soporte hemodinámico, continúa en estado crítico.",
+        "Tratamiento Continuado": "Monitoreo intensivo, manejo del balance hídrico y ajuste de medicación.",
+        "Complicaciones": "Alto riesgo de falla multiorgánica.",
+        "Resolución": "N/A",
+        "Conclusión": "Paciente en shock cardiogénico, manejo intensivo en UCI requerido.",
+        "Respuesta Caso": {
+            "Plan Nutricional Inicial": "Nutrición Enteral (NET)",
+            "Requerimientos Nutricionales": {
+                "Calorías": "1600 kcal/día",
+                "Proteinas": "80 g/día"
+            },
+            "Conducta Nutricional": {
+                "Tipo de dieta": "Hipercalórica, hiperproteica",
+                "Vía de acceso": "Sonda nasogástrica",
+                "Tipo de fórmula": "Fórmula especializada para soporte cardiaco"
+            },
+            "Recomendaciones Nutricionales": [
+                "Ajuste del aporte calórico según evolución hemodinámica.",
+                "Monitoreo continuo de la tolerancia gastrointestinal."
+            ]
+        }
+    },
+    {
+        "Antecedentes": {
+            "Paciente": "Ana P",
+            "Edad": "45 años",
+            "Sexo": "Femenino",
+            "Ocupación": "Abogada",
+            "Historial Médico": [
+                "Asma severa desde la infancia.",
+                "Historial de hospitalizaciones frecuentes por exacerbaciones asmáticas.",
+                "Tabaquismo activo (20 cigarrillos/día)."
+            ]
+        },
+        "Motivo de Consulta": "Ingreso a UCI por falla respiratoria aguda.",
+        "Historia de la Enfermedad Actual": "Ana fue ingresada tras presentar una exacerbación asmática severa, no respondiente a tratamiento estándar, resultando en insuficiencia respiratoria aguda.",
+        "Examen Físico": {
+            "Signos Vitales": {
+                "FC": "140 lpm",
+                "FR": "35 rpm",
+                "TA": "90/55 mmHg",
+                "T": "37.2°C"
+            },
+            "Peso": "65 kg",
+            "Talla": "160 cm",
+            "Abdomen": "Blando, no doloroso.",
+            "Neurológico": "Consciente, ansiosa.",
+            "Otros": "Cianosis peribucal, sibilancias generalizadas en ambos campos pulmonares."
+        },
+        "Laboratorio y Estudios de Imagen": {
+            "Laboratorios": [
+                {"Lab": "Gasometría arterial", "Val": "PaO2: 55 mmHg, PaCO2: 60 mmHg"},
+                {"Lab": "Lactato", "Val": "4 mmol/L"},
+                {"Lab": "Glucosa", "Val": "130 mg/dL"},
+                {"Lab": "Creatinina", "Val": "0.8 mg/dL"}
+            ],
+            "Estudios de Imagen": [
+                {"Img": "Radiografía de tórax", "Val": "Hiperinsuflación pulmonar, sin infiltrados evidentes."},
+                {"Img": "TC de tórax", "Val": "No se observan lesiones focales."}
+            ]
+        },
+        "Diagnóstico": "Falla respiratoria aguda secundaria a exacerbación asmática severa.",
+        "Tratamiento Inicial": "Ventilación mecánica, broncodilatadores intravenosos, corticoides sistémicos.",
+        "Evolución Clinica": "Mejoría parcial en la oxigenación, aún requiere soporte ventilatorio.",
+        "Tratamiento Continuado": "Manejo con ventilación no invasiva, ajuste de tratamiento broncodilatador y corticoide.",
+        "Complicaciones": "Riesgo elevado de neumotórax.",
+        "Resolución": "N/A",
+        "Conclusión": "Paciente con falla respiratoria aguda, manejo intensivo en UCI para estabilización respiratoria.",
+        "Respuesta Caso": {
+            "Plan Nutricional Inicial": "Nutrición Enteral (NET)",
+            "Requerimientos Nutricionales": {
+                "Calorías": "1800 kcal/día",
+                "Proteinas": "70 g/día"
+            },
+            "Conducta Nutricional": {
+                "Tipo de dieta": "Normocalórica, baja en carbohidratos",
+                "Vía de acceso": "Sonda nasogástrica",
+                "Tipo de fórmula": "Fórmula baja en carbohidratos para disminuir producción de CO2"
+            },
+            "Recomendaciones Nutricionales": [
+                "Ajuste del aporte calórico según la evolución respiratoria.",
+                "Monitoreo de la tolerancia a la nutrición enteral."
+            ]
+        }
+    },
+    {
+        "Antecedentes": {
+            "Paciente": "Raúl S",
+            "Edad": "70 años",
+            "Sexo": "Masculino",
+            "Ocupación": "Jubilado",
+            "Historial Médico": [
+                "Enfermedad de Alzheimer en fase avanzada.",
+                "Hipertensión arterial.",
+                "Diabetes mellitus tipo 2."
+            ]
+        },
+        "Motivo de Consulta": "Ingreso a UCI por úlceras por presión infectadas y desnutrición severa.",
+        "Historia de la Enfermedad Actual": "Raúl ha estado postrado en cama durante el último año debido a la progresión de la enfermedad de Alzheimer. Desarrolló úlceras por presión severas que se infectaron, acompañadas de desnutrición.",
+        "Examen Físico": {
+            "Signos Vitales": {
+                "FC": "90 lpm",
+                "FR": "20 rpm",
+                "TA": "100/60 mmHg",
+                "T": "37.5°C"
+            },
+            "Peso": "55 kg",
+            "Talla": "170 cm",
+            "Abdomen": "Blando, depresible.",
+            "Neurológico": "No responde a estímulos verbales, Glasgow 6.",
+            "Otros": "Úlceras por presión en sacro y talones, con signos de infección."
+        },
+        "Laboratorio y Estudios de Imagen": {
+            "Laboratorios": [
+                {"Lab": "Hemoglobina", "Val": "9 g/dL"},
+                {"Lab": "Albúmina", "Val": "2.5 g/dL"},
+                {"Lab": "Creatinina", "Val": "1.3 mg/dL"},
+                {"Lab": "Leucocitos", "Val": "15,000 células/mm³"}
+            ],
+            "Estudios de Imagen": [
+                {"Img": "Radiografía de tórax", "Val": "Pulmones limpios, sin consolidaciones."},
+                {"Img": "TC cerebral", "Val": "Atrofia cortical generalizada."}
+            ]
+        },
+        "Diagnóstico": "Úlceras por presión infectadas y desnutrición severa en paciente con Alzheimer.",
+        "Tratamiento Inicial": "Desbridamiento de úlceras, antibioterapia intravenosa, soporte nutricional intensivo.",
+        "Evolución Clinica": "Mejoría parcial en el estado general, pero la evolución es lenta debido al estado general del paciente.",
+        "Tratamiento Continuado": "Cuidados de la piel intensivos, manejo de la infección, nutrición parenteral.",
+        "Complicaciones": "Riesgo elevado de sepsis y fallo multiorgánico.",
+        "Resolución": "N/A",
+        "Conclusión": "Paciente en estado crítico por complicaciones de inmovilidad, manejo intensivo requerido en UCI.",
+        "Respuesta Caso": {
+            "Plan Nutricional Inicial": "Nutrición Parenteral Total (NPT)",
+            "Requerimientos Nutricionales": {
+                "Calorías": "1500 kcal/día",
+                "Proteinas": "65 g/día"
+            },
+            "Conducta Nutricional": {
+                "Tipo de dieta": "N/A",
+                "Vía de acceso": "Vía venosa central",
+                "Tipo de fórmula": "Solución parenteral balanceada"
+            },
+            "Recomendaciones Nutricionales": [
+                "Monitoreo de la evolución de las úlceras por presión.",
+                "Ajuste del soporte nutricional según la evolución del estado general del paciente."
+            ]
+        }
+    }, 
+    {
+        "Antecedentes": {
+            "Paciente": "Julio R",
+            "Edad": "38 años",
+            "Sexo": "Masculino",
+            "Ocupación": "Músico",
+            "Historial Médico": [
+                "Diagnóstico de VIH hace 8 años.",
+                "Historial de tuberculosis pulmonar tratada hace 3 años.",
+                "Terapia antirretroviral en curso con adherencia subóptima."
+            ]
+        },
+        "Motivo de Consulta": "Ingreso a UCI por encefalopatía asociada al VIH con estado mental alterado.",
+        "Historia de la Enfermedad Actual": "Julio fue hospitalizado tras presentar confusión, cefalea severa y convulsiones. En la UCI, se le diagnosticó encefalopatía asociada al VIH, con sospecha de leucoencefalopatía multifocal progresiva.",
+        "Examen Físico": {
+            "Signos Vitales": {
+                "FC": "105 lpm",
+                "FR": "24 rpm",
+                "TA": "110/70 mmHg",
+                "T": "37.3°C"
+            },
+            "Peso": "68 kg",
+            "Talla": "175 cm",
+            "Abdomen": "Blando, no doloroso.",
+            "Neurológico": "Glasgow 9, reflejos pupilares presentes pero lentos.",
+            "Otros": "Piel seca, sin rash evidente."
+        },
+        "Laboratorio y Estudios de Imagen": {
+            "Laboratorios": [
+                {"Lab": "CD4", "Val": "90 células/mm³"},
+                {"Lab": "Carga viral", "Val": "1,200,000 copias/mL"},
+                {"Lab": "Hemoglobina", "Val": "10.5 g/dL"},
+                {"Lab": "Sodio", "Val": "135 mEq/L"},
+                {"Lab": "Glucosa", "Val": "95 mg/dL"}
+            ],
+            "Estudios de Imagen": [
+                {"Img": "Resonancia magnética cerebral", "Val": "Lesiones multifocales compatibles con leucoencefalopatía multifocal progresiva."},
+                {"Img": "Tomografía cerebral", "Val": "Atrofia cerebral difusa."}
+            ]
+        },
+        "Diagnóstico": "Encefalopatía asociada al VIH con sospecha de leucoencefalopatía multifocal progresiva.",
+        "Tratamiento Inicial": "Iniciar tratamiento antirretroviral de rescate, manejo de convulsiones con anticonvulsivantes, y soporte neurocrítico.",
+        "Evolución Clinica": "Mejoría parcial del estado mental, continua con riesgo de deterioro neurológico.",
+        "Tratamiento Continuado": "Monitoreo intensivo en UCI, ajuste de terapia antirretroviral, rehabilitación neurológica.",
+        "Complicaciones": "Riesgo elevado de infecciones oportunistas y deterioro neurológico progresivo.",
+        "Resolución": "N/A",
+        "Conclusión": "Paciente VIH con complicaciones neurológicas severas, manejo intensivo en UCI requerido.",
+        "Respuesta Caso": {
+            "Plan Nutricional Inicial": "Nutrición Enteral (NET)",
+            "Requerimientos Nutricionales": {
+                "Calorías": "2200 kcal/día",
+                "Proteinas": "85 g/día"
+            },
+            "Conducta Nutricional": {
+                "Tipo de dieta": "Normocalórica, normoproteica",
+                "Vía de acceso": "Sonda nasogástrica",
+                "Tipo de fórmula": "Fórmula especializada para pacientes con VIH"
+            },
+            "Recomendaciones Nutricionales": [
+                "Monitoreo continuo de la ingesta calórica y proteica.",
+                "Ajuste del plan nutricional según la evolución neurológica."
+            ]
+        }
+    },
+    {
+        "Antecedentes": {
+            "Paciente": "Marta L",
+            "Edad": "63 años",
+            "Sexo": "Femenino",
+            "Ocupación": "Administradora",
+            "Historial Médico": [
+                "Hipertensión arterial.",
+                "Obesidad.",
+                "Infección del tracto urinario recurrente."
+            ]
+        },
+        "Motivo de Consulta": "Ingreso a UCI por sepsis secundaria a infección del tracto urinario complicado.",
+        "Historia de la Enfermedad Actual": "Marta fue ingresada a UCI tras desarrollar fiebre alta, confusión y oliguria. Se diagnosticó sepsis de origen urinario complicado con shock séptico.",
+        "Examen Físico": {
+            "Signos Vitales": {
+                "FC": "130 lpm",
+                "FR": "25 rpm",
+                "TA": "85/45 mmHg",
+                "T": "39.2°C"
+            },
+            "Peso": "85 kg",
+            "Talla": "160 cm",
+            "Abdomen": "Blando, doloroso en hipogastrio.",
+            "Neurológico": "Consciente, pero confusa.",
+            "Otros": "Piel caliente, eritema perineal."
+        },
+        "Laboratorio y Estudios de Imagen": {
+            "Laboratorios": [
+                {"Lab": "Leucocitos", "Val": "22,000 células/mm³"},
+                {"Lab": "Lactato", "Val": "6.2 mmol/L"},
+                {"Lab": "Creatinina", "Val": "2.1 mg/dL"},
+                {"Lab": "Procalcitonina", "Val": "Elevada"}
+            ],
+            "Estudios de Imagen": [
+                {"Img": "Ecografía renal", "Val": "Hidronefrosis leve bilateral."},
+                {"Img": "Tomografía abdominal", "Val": "Inflamación perirrenal, sin abscesos evidentes."}
+            ]
+        },
+        "Diagnóstico": "Sepsis secundaria a infección urinaria complicada con shock séptico.",
+        "Tratamiento Inicial": "Antibioterapia de amplio espectro, reposición agresiva de líquidos, soporte vasopresor.",
+        "Evolución Clinica": "Mejoría parcial con estabilización hemodinámica, lactato en descenso.",
+        "Tratamiento Continuado": "Monitoreo continuo de la función renal y ajuste de antibióticos según resultados de cultivos.",
+        "Complicaciones": "Riesgo elevado de insuficiencia renal aguda.",
+        "Resolución": "N/A",
+        "Conclusión": "Paciente con sepsis grave, manejo intensivo en UCI requerido para estabilización y tratamiento.",
+        "Respuesta Caso": {
+            "Plan Nutricional Inicial": "Nutrición Parenteral Total (NPT)",
+            "Requerimientos Nutricionales": {
+                "Calorías": "1600 kcal/día",
+                "Proteinas": "70 g/día"
+            },
+            "Conducta Nutricional": {
+                "Tipo de dieta": "N/A",
+                "Vía de acceso": "Vía venosa central",
+                "Tipo de fórmula": "Solución parenteral balanceada"
+            },
+            "Recomendaciones Nutricionales": [
+                "Monitoreo estrecho de la función renal y ajuste del aporte de líquidos.",
+                "Evaluación continua para la transición a nutrición enteral cuando sea posible."
+            ]
+        }
+    },
+    {
+        "Antecedentes": {
+            "Paciente": "Rosa G",
+            "Edad": "53 años",
+            "Sexo": "Femenino",
+            "Ocupación": "Contadora",
+            "Historial Médico": [
+                "Enfermedad pulmonar obstructiva crónica (EPOC).",
+                "Antecedentes de tabaquismo (30 paquetes-año).",
+                "Hipertensión arterial."
+            ]
+        },
+        "Motivo de Consulta": "Ingreso a UCI por falla respiratoria aguda descompensada.",
+        "Historia de la Enfermedad Actual": "Rosa presentó disnea severa, cianosis y alteración del estado mental. Fue ingresada de urgencia a UCI con diagnóstico de exacerbación aguda de EPOC con insuficiencia respiratoria.",
+        "Examen Físico": {
+            "Signos Vitales": {
+                "FC": "125 lpm",
+                "FR": "32 rpm",
+                "TA": "95/60 mmHg",
+                "T": "37.1°C"
+            },
+            "Peso": "70 kg",
+            "Talla": "160 cm",
+            "Abdomen": "Blando, sin dolor.",
+            "Neurológico": "Consciente, pero con confusión leve.",
+            "Otros": "Cianosis perioral, sibilancias audibles en ambos campos pulmonares."
+        },
+        "Laboratorio y Estudios de Imagen": {
+            "Laboratorios": [
+                {"Lab": "Gasometría arterial", "Val": "PaO2: 50 mmHg, PaCO2: 60 mmHg"},
+                {"Lab": "Hemoglobina", "Val": "15 g/dL"},
+                {"Lab": "Lactato", "Val": "3.5 mmol/L"},
+                {"Lab": "Glucosa", "Val": "110 mg/dL"}
+            ],
+            "Estudios de Imagen": [
+                {"Img": "Radiografía de tórax", "Val": "Hiperinsuflación bilateral, diafragmas aplanados."},
+                {"Img": "TC de tórax", "Val": "Enfisema difuso sin signos de infección aguda."}
+            ]
+        },
+        "Diagnóstico": "Exacerbación aguda de EPOC con insuficiencia respiratoria aguda.",
+        "Tratamiento Inicial": "Ventilación mecánica no invasiva, broncodilatadores, corticosteroides sistémicos.",
+        "Evolución Clinica": "Mejoría en la oxigenación, aún en soporte ventilatorio no invasivo.",
+        "Tratamiento Continuado": "Ajuste de broncodilatadores, manejo de la ventilación y rehabilitación respiratoria.",
+        "Complicaciones": "Riesgo elevado de neumotórax y fallo respiratorio crónico.",
+        "Resolución": "N/A",
+        "Conclusión": "Paciente con EPOC en estado crítico por exacerbación aguda, manejo intensivo en UCI necesario.",
+        "Respuesta Caso": {
+            "Plan Nutricional Inicial": "Nutrición Enteral (NET)",
+            "Requerimientos Nutricionales": {
+                "Calorías": "1700 kcal/día",
+                "Proteinas": "65 g/día"
+            },
+            "Conducta Nutricional": {
+                "Tipo de dieta": "Normocalórica, baja en carbohidratos",
+                "Vía de acceso": "Sonda nasogástrica",
+                "Tipo de fórmula": "Fórmula baja en carbohidratos para disminuir producción de CO2"
+            },
+            "Recomendaciones Nutricionales": [
+                "Monitoreo continuo de la función respiratoria y ajuste de la nutrición según tolerancia.",
+                "Ajuste del plan nutricional según la evolución clínica y el soporte ventilatorio."
+            ]
+        }
+    },
+    {
+        "Antecedentes": {
+            "Paciente": "Ricardo V",
+            "Edad": "58 años",
+            "Sexo": "Masculino",
+            "Ocupación": "Contador",
+            "Historial Médico": [
+                "Diabetes mellitus tipo 2 diagnosticada hace 10 años, en tratamiento con insulina.",
+                "Hipertensión arterial crónica.",
+                "Obesidad (IMC 32 kg/m²)."
+            ]
+        },
+        "Motivo de Consulta": "Ingreso a UCI por choque séptico con descompensación metabólica severa.",
+        "Historia de la Enfermedad Actual": "Ricardo fue hospitalizado tras desarrollar fiebre alta, hipotensión severa y alteración del estado mental. Se diagnosticó choque séptico secundario a una infección del pie diabético complicada. Presenta niveles de glucosa extremadamente elevados y cetonemia, sugiriendo una cetoacidosis diabética asociada.",
+        "Examen Físico": {
+            "Signos Vitales": {
+                "FC": "135 lpm",
+                "FR": "28 rpm",
+                "TA": "75/40 mmHg",
+                "T": "38.7°C"
+            },
+            "Peso": "90 kg",
+            "Talla": "170 cm",
+            "Abdomen": "Blando, doloroso en epigastrio.",
+            "Neurológico": "Consciente, pero letárgico.",
+            "Otros": "Edema en miembros inferiores, úlcera en pie derecho con signos de infección severa."
+        },
+        "Laboratorio y Estudios de Imagen": {
+            "Laboratorios": [
+                {"Lab": "Glucosa", "Val": "450 mg/dL"},
+                {"Lab": "Hemoglobina glicosilada (HbA1c)", "Val": "10.5%"},
+                {"Lab": "Cetonas", "Val": "Positivas"},
+                {"Lab": "Creatinina", "Val": "2.0 mg/dL"},
+                {"Lab": "Lactato", "Val": "7.0 mmol/L"},
+                {"Lab": "Leucocitos", "Val": "22,000 células/mm³"},
+                {"Lab": "pH arterial", "Val": "7.10 (acidosis metabólica)"}
+            ],
+            "Estudios de Imagen": [
+                {"Img": "Radiografía de pie", "Val": "Osteomielitis en falange distal del primer dedo."},
+                {"Img": "TC abdominal", "Val": "Hígado graso, sin otros hallazgos significativos."}
+            ]
+        },
+        "Diagnóstico": "Choque séptico secundario a infección del pie diabético con cetoacidosis diabética.",
+        "Tratamiento Inicial": "Reposición agresiva de líquidos, antibióticos de amplio espectro, manejo con insulina intravenosa y soporte vasopresor.",
+        "Evolución Clinica": "Mejoría parcial en la presión arterial y niveles de glucosa, continúa con riesgo elevado de complicaciones multiorgánicas.",
+        "Tratamiento Continuado": "Monitoreo intensivo en UCI, manejo del control glucémico con insulina, desbridamiento quirúrgico de la úlcera infectada.",
+        "Complicaciones": "Riesgo elevado de insuficiencia renal aguda y fallo multiorgánico.",
+        "Resolución": "N/A",
+        "Conclusión": "Paciente en estado crítico por choque séptico y cetoacidosis diabética, requiere manejo intensivo multidisciplinario en UCI.",
+        "Respuesta Caso": {
+            "Plan Nutricional Inicial": "Nutrición Parenteral Total (NPT)",
+            "Requerimientos Nutricionales": {
+                "Calorías": "1800 kcal/día",
+                "Proteinas": "80 g/día"
+            },
+            "Conducta Nutricional": {
+                "Tipo de dieta": "N/A",
+                "Vía de acceso": "Vía venosa central",
+                "Tipo de fórmula": "Solución parenteral con control estricto de carbohidratos"
+            },
+            "Recomendaciones Nutricionales": [
+                "Monitoreo continuo de la glucosa en sangre y ajuste del aporte de carbohidratos.",
+                "Evaluación para la transición a nutrición enteral en cuanto el estado clínico lo permita."
+            ]
+        }
+    },
+    {
+        "Antecedentes": {
+            "Paciente": "Miguel A",
+            "Edad": "52 años",
+            "Sexo": "Masculino",
+            "Ocupación": "Empresario",
+            "Historial Médico": [
+                "Cirrhosis hepática secundaria a hepatitis C.",
+                "Hipertensión arterial.",
+                "Diabetes mellitus tipo 2.",
+                "Trasplante hepático realizado hace 7 días."
+            ]
+        },
+        "Motivo de Consulta": "Paciente en cama en UCI post-trasplante hepático, con riesgo de desarrollar Síndrome de Respuesta Inflamatoria Sistémica (SIRS).",
+        "Historia de la Enfermedad Actual": "Miguel fue sometido a un trasplante hepático debido a cirrosis avanzada. Actualmente está en la UCI, en cama, con monitoreo constante debido a signos de inflamación sistémica, fiebre persistente y alteraciones en la función renal, lo que sugiere riesgo de desarrollar SIRS.",
+        "Examen Físico": {
+            "Signos Vitales": {
+                "FC": "110 lpm",
+                "FR": "24 rpm",
+                "TA": "95/60 mmHg",
+                "T": "38.5°C"
+            },
+            "Peso": "85 kg",
+            "Talla": "178 cm",
+            "Abdomen": "Blando, sin dolor a la palpación, cicatriz quirúrgica limpia.",
+            "Neurológico": "Consciente, orientado, pero fatigado.",
+            "Otros": "Edema leve en extremidades inferiores, eritema periumbilical leve."
+        },
+        "Laboratorio y Estudios de Imagen": {
+            "Laboratorios": [
+                {"Lab": "Leucocitos", "Val": "15,000 células/mm³"},
+                {"Lab": "Creatinina", "Val": "1.8 mg/dL"},
+                {"Lab": "BUN", "Val": "30 mg/dL"},
+                {"Lab": "ALT", "Val": "250 U/L"},
+                {"Lab": "AST", "Val": "220 U/L"},
+                {"Lab": "Bilirrubina Total", "Val": "2.5 mg/dL"},
+                {"Lab": "Lactato", "Val": "4.0 mmol/L"}
+            ],
+            "Estudios de Imagen": [
+                {"Img": "Ecografía abdominal", "Val": "Injerto hepático con perfusión adecuada, sin colecciones."},
+                {"Img": "Radiografía de tórax", "Val": "Sin consolidaciones, leve derrame pleural bilateral."}
+            ]
+        },
+        "Diagnóstico": "Postoperatorio inmediato de trasplante hepático con riesgo de Síndrome de Respuesta Inflamatoria Sistémica (SIRS).",
+        "Tratamiento Inicial": "Monitoreo intensivo de signos vitales y función renal, manejo inmunosupresor, antibióticos profilácticos.",
+        "Evolución Clinica": "Mantenimiento de la estabilidad hemodinámica, función hepática dentro de los rangos esperados, pero con signos de inflamación sistémica persistente.",
+        "Tratamiento Continuado": "Continuar con el monitoreo en UCI, manejo de líquidos para prevenir insuficiencia renal aguda, ajuste de la terapia inmunosupresora.",
+        "Complicaciones": "Riesgo elevado de insuficiencia renal aguda (IRA) y fallo multiorgánico.",
+        "Resolución": "N/A",
+        "Conclusión": "Paciente en estado crítico tras trasplante hepático, con riesgo de SIRS, requiere manejo multidisciplinario intensivo en UCI.",
+        "Respuesta Caso": {
+            "Plan Nutricional Inicial": "Nutrición Enteral (NET)",
+            "Requerimientos Nutricionales": {
+                "Calorías": "2000 kcal/día",
+                "Proteinas": "90 g/día"
+            },
+            "Conducta Nutricional": {
+                "Tipo de dieta": "Normocalórica, normoproteica",
+                "Vía de acceso": "Sonda nasogástrica",
+                "Tipo de fórmula": "Fórmula específica para pacientes post-trasplante, con soporte hepático"
+            },
+            "Recomendaciones Nutricionales": [
+                "Monitoreo continuo de la función hepática y renal, con ajuste del aporte proteico según evolución.",
+                "Evaluación de la tolerancia a la nutrición enteral y ajuste de la fórmula según la respuesta clínica."
+            ]
+        }
+    },
+    {
+        "Antecedentes": {
+            "Paciente": "Miguel A",
+            "Edad": "52 años",
+            "Sexo": "Masculino",
+            "Ocupación": "Empresario",
+            "Historial Médico": [
+                "Cirrhosis hepática secundaria a hepatitis C.",
+                "Hipertensión arterial.",
+                "Diabetes mellitus tipo 2.",
+                "Trasplante hepático realizado hace 10 días."
+            ]
+        },
+        "Motivo de Consulta": "Paciente en cama en UCI post-trasplante hepático con riesgo de desarrollar Síndrome de Retroalimentación Aguda (SRA).",
+        "Historia de la Enfermedad Actual": "Miguel fue sometido a un trasplante hepático debido a cirrosis avanzada. Después de la cirugía, ha permanecido en la UCI en estado crítico, con un monitoreo constante debido a alteraciones metabólicas y nutricionales. Su estado nutricional es precario, y debido al reestablecimiento del aporte nutricional, está en riesgo de desarrollar el Síndrome de Retroalimentación Aguda (SRA).",
+        "Examen Físico": {
+            "Signos Vitales": {
+                "FC": "100 lpm",
+                "FR": "22 rpm",
+                "TA": "100/65 mmHg",
+                "T": "37.2°C"
+            },
+            "Peso": "80 kg",
+            "Talla": "178 cm",
+            "Abdomen": "Blando, sin dolor a la palpación, cicatriz quirúrgica sin signos de infección.",
+            "Neurológico": "Consciente, orientado, pero con fatiga persistente.",
+            "Otros": "Edema leve en extremidades inferiores, sin signos de infección o trombosis."
+        },
+        "Laboratorio y Estudios de Imagen": {
+            "Laboratorios": [
+                {"Lab": "Electrolitos", "Val": "Na: 134 mEq/L, K: 3.2 mEq/L, Mg: 1.6 mg/dL"},
+                {"Lab": "Glucosa", "Val": "120 mg/dL"},
+                {"Lab": "Fósforo", "Val": "2.0 mg/dL"},
+                {"Lab": "Bilirrubina Total", "Val": "1.8 mg/dL"},
+                {"Lab": "Albúmina", "Val": "2.8 g/dL"},
+                {"Lab": "Creatinina", "Val": "1.5 mg/dL"},
+                {"Lab": "ALT", "Val": "150 U/L"},
+                {"Lab": "AST", "Val": "130 U/L"}
+            ],
+            "Estudios de Imagen": [
+                {"Img": "Ecografía abdominal", "Val": "Injerto hepático con perfusión adecuada, sin colecciones o complicaciones evidentes."},
+                {"Img": "Radiografía de tórax", "Val": "Sin consolidaciones, leve derrame pleural derecho."}
+            ]
+        },
+        "Diagnóstico": "Postoperatorio inmediato de trasplante hepático con riesgo de Síndrome de Retroalimentación Aguda (SRA).",
+        "Tratamiento Inicial": "Monitoreo de electrolitos y parámetros metabólicos, ajuste cuidadoso de la nutrición enteral para evitar la sobrecarga metabólica.",
+        "Evolución Clinica": "Estabilidad hemodinámica mantenida, pero con alteraciones electrolíticas que requieren ajuste frecuente.",
+        "Tratamiento Continuado": "Monitoreo continuo en UCI, ajuste de la terapia nutricional para prevenir el SRA, con suplementación de electrolitos y micronutrientes según necesidad.",
+        "Complicaciones": "Riesgo elevado de desequilibrios electrolíticos graves y disfunción multiorgánica.",
+        "Resolución": "N/A",
+        "Conclusión": "Paciente en estado crítico tras trasplante hepático, con riesgo de desarrollar SRA, requiere manejo nutricional y metabólico intensivo en UCI.",
+        "Respuesta Caso": {
+            "Plan Nutricional Inicial": "Nutrición Enteral (NET)",
+            "Requerimientos Nutricionales": {
+                "Calorías": "1800 kcal/día",
+                "Proteinas": "70 g/día"
+            },
+            "Conducta Nutricional": {
+                "Tipo de dieta": "Hipocalórica, controlada en electrolitos",
+                "Vía de acceso": "Sonda nasogástrica",
+                "Tipo de fórmula": "Fórmula específica para pacientes con riesgo de SRA"
+            },
+            "Recomendaciones Nutricionales": [
+                "Monitoreo continuo de electrolitos séricos, especialmente fósforo, magnesio y potasio.",
+                "Ajuste del aporte calórico y proteico para evitar la sobrecarga metabólica y prevenir el SRA."
+            ]
+        }
+    },
+    {
+        "Antecedentes": {
+            "Paciente": "Laura M",
+            "Edad": "46 años",
+            "Sexo": "Femenino",
+            "Ocupación": "Diseñadora gráfica",
+            "Historial Médico": [
+                "Colelitiasis diagnosticada hace 2 años.",
+                "Antecedentes de consumo crónico de alcohol.",
+                "Hipertensión arterial controlada."
+            ]
+        },
+        "Motivo de Consulta": "Ingreso a UCI por pancreatitis aguda severa con signos de desnutrición.",
+        "Historia de la Enfermedad Actual": "Laura fue hospitalizada tras desarrollar dolor abdominal intenso en epigastrio, irradiado a la espalda, acompañado de náuseas y vómitos. Fue diagnosticada con pancreatitis aguda. La paciente ha perdido peso significativamente en los últimos meses y presenta signos clínicos de desnutrición, agravados por la inflamación pancreática.",
+        "Examen Físico": {
+            "Signos Vitales": {
+                "FC": "115 lpm",
+                "FR": "24 rpm",
+                "TA": "90/60 mmHg",
+                "T": "37.5°C"
+            },
+            "Peso": "50 kg",
+            "Talla": "160 cm",
+            "Abdomen": "Distendido, doloroso a la palpación en epigastrio, con signos de defensa abdominal.",
+            "Neurológico": "Consciente, orientada, pero con fatiga severa.",
+            "Otros": "Piel seca, cabello quebradizo, edemas periféricos leves."
+        },
+        "Laboratorio y Estudios de Imagen": {
+            "Laboratorios": [
+                {"Lab": "Amilasa", "Val": "600 U/L"},
+                {"Lab": "Lipasa", "Val": "1200 U/L"},
+                {"Lab": "Albúmina", "Val": "2.0 g/dL"},
+                {"Lab": "Electrolitos", "Val": "Na: 138 mEq/L, K: 3.4 mEq/L"},
+                {"Lab": "Glucosa", "Val": "180 mg/dL"},
+                {"Lab": "Calcio", "Val": "7.5 mg/dL"},
+                {"Lab": "Hemoglobina", "Val": "10 g/dL"}
+            ],
+            "Estudios de Imagen": [
+                {"Img": "TC de abdomen", "Val": "Pancreatitis aguda con edema pancreático difuso, sin necrosis visible."},
+                {"Img": "Ecografía abdominal", "Val": "Colelitiasis sin signos de obstrucción biliar."}
+            ]
+        },
+        "Diagnóstico": "Pancreatitis aguda severa con desnutrición proteico-calórica.",
+        "Tratamiento Inicial": "Reposo pancreático con ayuno absoluto, hidratación intravenosa, manejo del dolor con analgesia, y monitoreo metabólico intensivo.",
+        "Evolución Clinica": "Persistencia del dolor abdominal con signos de mejoría lenta, desnutrición severa identificada, iniciada la transición a nutrición enteral progresiva.",
+        "Tratamiento Continuado": "Monitoreo continuo en UCI, ajuste de la terapia nutricional, inicio de nutrición enteral a bajas dosis, suplementación de micronutrientes.",
+        "Complicaciones": "Riesgo elevado de complicaciones metabólicas y disfunción multiorgánica debido a la desnutrición.",
+        "Resolución": "N/A",
+        "Conclusión": "Paciente con pancreatitis aguda severa y desnutrición significativa, manejo nutricional y metabólico intensivo necesario en UCI.",
+        "Respuesta Caso": {
+            "Plan Nutricional Inicial": "Nutrición Enteral (NET)",
+            "Requerimientos Nutricionales": {
+                "Calorías": "1500 kcal/día",
+                "Proteinas": "60 g/día"
+            },
+            "Conducta Nutricional": {
+                "Tipo de dieta": "Hipocalórica, con bajo contenido en grasas",
+                "Vía de acceso": "Sonda nasogástrica",
+                "Tipo de fórmula": "Fórmula especializada para pancreatitis, baja en grasas"
+            },
+            "Recomendaciones Nutricionales": [
+                "Monitoreo continuo de la función pancreática y ajuste del aporte nutricional según la tolerancia.",
+                "Suplementación con vitaminas liposolubles y minerales según déficit identificado."
+            ]
+        }
+    }                                    
+]
