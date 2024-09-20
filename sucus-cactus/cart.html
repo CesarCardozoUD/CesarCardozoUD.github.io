@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sucus y Cactús Fans - Carrito de Compras</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #7bbf6a;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        .cart-container {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 30px;
+        }
+
+        table th,
+        table td {
+            padding: 15px;
+            text-align: center;
+            border-bottom: 1px solid #ddd;
+        }
+
+        table th {
+            background-color: #f4f4f9;
+        }
+
+        .cart-item img {
+            width: 100px;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        .quantity input {
+            width: 50px;
+            padding: 5px;
+            text-align: center;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .actions button {
+            background-color: #ff5252;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .actions button:hover {
+            background-color: #ff3333;
+        }
+
+        .cart-summary {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 1.5em;
+            margin-bottom: 20px;
+        }
+
+        .checkout {
+            background-color: #7bbf6a;
+            color: white;
+            padding: 15px 30px;
+            text-align: center;
+            border-radius: 5px;
+            font-size: 1.2em;
+            text-decoration: none;
+            display: inline-block;
+            cursor: pointer;
+        }
+
+        .checkout:hover {
+            background-color: #69a05d;
+        }
+
+        .checkout:disabled {
+            background-color: #ABABAB;
+            cursor: not-allowed;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        /* Modal Styling */
+        .modal {
+            display: none;
+            /* Hidden by default */
+            position: fixed;
+            z-index: 1;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            /* Black background with opacity */
+        }
+
+        .modal-content {
+            background-color: #fff;
+            margin: 15% auto;
+            padding: 20px;
+            border: 1px solid #888;
+            width: 80%;
+            max-width: 500px;
+            border-radius: 10px;
+        }
+
+        .close {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .close:hover,
+        .close:focus {
+            color: black;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        .modal input[type="text"] {
+            width: 95%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .modal button {
+            background-color: #7bbf6a;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 1em;
+            border-radius: 5px;
+        }
+
+        .modal button:hover {
+            background-color: #69a05d;
+        }
+
+        .apply-coupon {
+            background-color: #87C3F3;
+            color: white;
+            padding: 15px 30px;
+            text-align: center;
+            border-radius: 5px;
+            font-size: 1.2em;
+            text-decoration: none;
+            display: inline-block;
+            cursor: pointer;
+            font-weight: 400;
+            margin-right: 8px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Tu Carrito de Compras</h1>
+    </header>
+
+    <div class="cart-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Descripción</th>
+                    <th>Cantidad</th>
+                    <th>Precio Unitario</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="cart-item">
+                    <td>Suculenta Echeveria</td>
+                    <td class="quantity">
+                        <input type="number" value="0" min="0" onchange="updateCartTotal(1, this.value)">
+                    </td>
+                    <td>$15.00</td>
+                    <td class="actions">
+                        <button>Eliminar</button>
+                    </td>
+                </tr>
+                <tr class="cart-item">
+                    <td>Suculenta Haworthia</td>
+                    <td class="quantity">
+                        <input type="number" value="0" min="0" onchange="updateCartTotal(2, this.value)">
+                    </td>
+                    <td>$12.00</td>
+                    <td class="actions">
+                        <button>Eliminar</button>
+                    </td>
+                </tr>
+                <tr class="cart-item">
+                    <td>Jovibarba Eufelii</td>
+                    <td class="quantity">
+                        <input type="number" value="0" min="0" onchange="updateCartTotal(3, this.value)">
+                    </td>
+                    <td>$13.00</td>
+                    <td class="actions">
+                        <button>Eliminar</button>
+                    </td>
+                </tr>
+                <tr class="cart-item">
+                    <td>Zamioculcas</td>
+                    <td class="quantity">
+                        <input type="number" value="0" min="0" onchange="updateCartTotal(4, this.value)">
+                    </td>
+                    <td>$15.00</td>
+                    <td class="actions">
+                        <button>Eliminar</button>
+                    </td>
+                </tr>
+                <tr class="cart-item">
+                    <td>Suculenta Sedum</td>
+                    <td class="quantity">
+                        <input type="number" value="0" min="0" onchange="updateCartTotal(5, this.value)">
+                    </td>
+                    <td>$10.00</td>
+                    <td class="actions">
+                        <button>Eliminar</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="cart-summary">
+            <span>Total a Pagar: $0.00</span>
+            <div>
+                <span class="apply-coupon" id="openModal">Aplicar Cupón</span>
+                <button class="checkout" id="btnPay" disabled>Ir a Pagar</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- The Modal -->
+    <div id="couponModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Ingresar Cupón de Descuento</h2>
+            <input type="text" id="couponCode" placeholder="Ingresa tu código de cupón">
+            <button id="applyCouponButton" onclick="checkCoupon()">Aplicar Cupón</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Florecer. Todos los derechos reservados.</p>
+    </footer>
+
+
+    <script src="./kart.js"></script>
+
+</body>
+
+</html>

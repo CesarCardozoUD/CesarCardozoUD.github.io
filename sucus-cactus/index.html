@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sucus y Cactús Fans - Home</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #7bbf6a;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        header p {
+            font-size: 1.2em;
+            margin: 5px 0 0;
+        }
+        nav {
+            text-align: center;
+            margin-top: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .banner {
+            background-image: url('https://example.com/suculentas-banner.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+        }
+        .banner h2 {
+            font-size: 3em;
+            margin: 0;
+        }
+        .main-content {
+            text-align: center;
+        }
+        .main-content h2 {
+            font-size: 2.5em;
+            margin-bottom: 30px;
+        }
+        .product {
+            display: inline-block;
+            width: 300px;
+            margin: 15px;
+            text-align: left;
+            background-color: white;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        .product img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .product h3 {
+            font-size: 1.5em;
+            margin: 15px;
+        }
+        .product p {
+            margin: 0 15px 15px;
+            font-size: 1em;
+            color: #555;
+        }
+        .product button {
+            background-color: #7bbf6a;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin: 15px;
+            cursor: pointer;
+            font-size: 1em;
+            border-radius: 5px;
+        }
+        .product button:hover {
+            background-color: #69a05d;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sucus y Cactús Fans</h1>
+        <p>Especialistas en Suculentas y Flores Únicas</p>
+        <nav>
+            <a href="#">Inicio</a>
+            <a href="./cart.html">Tienda</a>
+            <a href="./error.html">Sobre Nosotros</a>
+            <a href="./cupon.html">Obtén tu Cupón</a>
+        </nav>
+    </header>
+
+    <section class="banner">
+        <h2>Regala Vida. Creación de Suculentas y Cactús.</h2>
+    </section>
+
+    <section class="main-content">
+        <h2>Nuestras Suculentas Destacadas</h2>
+
+        <div class="product">
+            <img src="https://mundomagnoliophyta.com/wp-content/uploads/2020/04/Echeveria-Laui-Suculentas-Vivero-Magnoliophyta-web-930x620.jpg" alt="Suculenta 1">
+            <h3>Suculenta Echeveria</h3>
+            <p>Una planta perfecta para cualquier espacio, resistente y hermosa.</p>
+            <button onclick="redirect()">Comprar Ahora</button>
+        </div>
+
+        <div class="product">
+            <img src="https://res.cloudinary.com/vivoboreal/images/f_auto,q_auto/v1661909383/Productos%20Tienda%20online/Plantas/Plantas%20de%20interior/Haworthia-Attenuata-2_nqsy9p/Haworthia-Attenuata-2_nqsy9p.jpg?_i=AA" alt="Suculenta 2">
+            <h3>Suculenta Haworthia</h3>
+            <p>Fácil de cuidar, con hojas que almacenan agua y purifican el aire.</p>
+            <button onclick="redirect()">Comprar Ahora</button>
+        </div>
+
+        <div class="product">
+            <img src="https://cactusandes.cl/cdn/shop/products/sedum-pachyphyllum-210044.jpg?v=1683601998" alt="Suculenta 3">
+            <h3>Suculenta Sedum</h3>
+            <p>De crecimiento rápido y perfecta para decorar jardines o interiores.</p>
+            <button onclick="redirect()">Comprar Ahora</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Florecer. Todos los derechos reservados.</p>
+    </footer>
+
+    <script>
+        function redirect(){
+            window.location.href = "./cart.html";
+        }
+    </script>
+</body>
+</html>
