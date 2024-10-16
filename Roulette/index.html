@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruleta de Preguntas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Ruleta de Preguntas</h1>
+    <div id="formulario">
+        <h2>Agregar Pregunta</h2>
+        <input type="text" id="titulo" placeholder="Título de la pregunta" />
+        <input type="text" id="descripcion" placeholder="Descripción de la pregunta" />
+        <button id="agregarPregunta">Agregar Pregunta</button>
+    </div>
+
+    <div id="preguntasContainer">
+        <h2>Preguntas</h2>
+        <ul id="preguntasList"></ul>
+    </div>
+
+    <div id="ruletaContainer">
+        <button id="girarRuleta">Girar Ruleta</button>
+    </div>
+
+    <!-- Modal para mostrar la pregunta seleccionada -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 id="preguntaTitulo"></h2>
+            <p id="preguntaDescripcion"></p>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
