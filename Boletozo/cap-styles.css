@@ -1,0 +1,122 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(180deg, #0d0d3b, #1a0033);
+    color: #f0f0ff;
+    line-height: 1.6;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+.captcha-container {
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 20px;
+    background: linear-gradient(45deg, #3a3d9d, #8a79c0);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.captcha-container h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #3a3d9d;
+}
+
+.captcha-container p {
+    font-size: 1rem;
+    color: #FFF;
+    margin-bottom: 20px;
+}
+
+/* Estilo para las imágenes */
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.image-grid img {
+    width: 100%;
+    border-radius: 8px;
+    cursor: pointer;
+    opacity: 0.6;
+    transition: opacity 0.3s ease;
+}
+
+.image-grid img:hover {
+    opacity: 1;
+}
+
+/* Texto parpadeante */
+.blinking-text {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #e6b800 !important;
+    opacity: 0.3;
+    display: none;
+    animation: blink 0.5s infinite;
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}
+
+/* Estilo del botón */
+.btn-submit {
+    background-color: #3a3d9d;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-submit:hover {
+    background-color: #1f2556;
+}
+
+.btn-submit:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+
+/* Efecto glitch o imagen oculta */
+.img-hidden {
+    background-color: #000;
+}
+
+@media (min-width: 768px) {
+
+    /* Desktop: ocultar segunda mitad */
+    .img-mobile-only {
+        opacity: 1 !important;
+        /* display: none !important; */
+    }
+
+    .img-desktop-only {
+        opacity: 0 !important;
+        /* display: block !important; */
+    }
+}
+
+@media (max-width: 767px) {
+
+    /* Móvil: ocultar primera mitad */
+    .img-desktop-only {
+        opacity: 1 !important;
+        /* display: none !important; */
+    }
+
+    .img-mobile-only {
+        opacity: 0 !important;
+        /* display: block !important; */
+    }
+}

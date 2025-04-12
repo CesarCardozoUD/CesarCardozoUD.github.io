@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Captcha - Verificación</title>
+  <link rel="stylesheet" href="cap-styles.css">
+</head>
+<body>
+  <div class="captcha-container">
+    <h2>Verificación de "No eres un robot"</h2>
+    <p>Selecciona las imágenes correctas en los siguientes 5 minutos:</p>
+
+    <div id="captcha-images" class="image-grid">
+      <!-- Las imágenes se cargarán dinámicamente con JS -->
+    </div>
+
+    <p id="blinking-text" class="blinking-text">Busca entre ellos a los solitarios, aquellos que solo el uno y ellos mismos conocen.</p>
+
+    <button id="submit-btn" class="btn-submit" onclick="prize()" disabled>Enviar</button>
+  </div>
+
+  <script src="captcha.js"></script>
+</body>
+</html>
