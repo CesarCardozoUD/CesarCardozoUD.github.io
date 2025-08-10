@@ -100,5 +100,5 @@ export const stack = [
     { nombre: "Git & GitHub", nivel: 85, nivel_txt: "Avanzado", color: "#f29111", grupo: "tools", },
     { nombre: "AWS", nivel: 60, nivel_txt: "Intermedio", color: "#131f2e", grupo: "tools", },
     { nombre: "Scrum", nivel: 80, nivel_txt: "Avanzado", color: "#e82295", grupo: "Softskills", },
-    { nombre: "Liderazgo", nivel: 60, nivel_txt: "Intermedio", color: "#dde8f0", grupo: "Softskills", },
+    { nombre: "Liderazgo", nivel: 60, nivel_txt: "Intermedio", color: "#a0a0f0", grupo: "Softskills", },
 ];
