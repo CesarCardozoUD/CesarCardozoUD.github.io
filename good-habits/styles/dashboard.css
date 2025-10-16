@@ -1,0 +1,72 @@
+@import url('./palette.css');
+
+#dashboard {
+    display: flex;
+    flex-wrap: wrap;
+    width:90%;    
+    margin: auto;
+    justify-content: center;
+}
+
+.dashboard_card {
+    width: 200px;
+    height: 150px;
+    background-color: whitesmoke;
+    padding: 24px 12px;
+    margin: 8px;
+    border: 2px solid var(--carbon-40);
+    border-radius: 5px;
+}
+
+.dashboard_card > h1 {
+    font-size: 18px;
+    margin: 8px;
+}
+
+.bg-streak-1 {
+    background: linear-gradient(to top, var(--dashboard-filler) 1%, whitesmoke 10%);
+}
+
+.bg-streak-2 {
+    background: linear-gradient(to top, var(--dashboard-filler) 1%, whitesmoke 20%);
+}
+
+.bg-streak-3 {
+    background: linear-gradient(to top, var(--dashboard-filler) 10%, whitesmoke 30%);
+}
+
+.bg-streak-4 {
+    background: linear-gradient(to top, var(--dashboard-filler) 20%, whitesmoke 40%);
+}
+
+.bg-streak-5 {
+    
+    background: linear-gradient(to top, var(--dashboard-filler) 30%, whitesmoke 50%);
+}
+
+.bg-streak-6 {
+    
+    background: linear-gradient(to top, var(--dashboard-filler) 40%, whitesmoke 60%);
+}
+
+.bg-streak-7 {
+    
+    background: linear-gradient(to top, var(--dashboard-filler) 50%, whitesmoke 70%);
+}
+
+.bg-streak-8 {
+    
+    background: linear-gradient(to top, var(--dashboard-filler) 63%, whitesmoke 80%);
+}
+
+.bg-streak-9 {
+    
+    background: linear-gradient(to top, var(--dashboard-filler) 80%, whitesmoke 90%);
+}
+
+.bg-streak-10 {
+    
+    background: linear-gradient(to top, var(--dashboard-filler) 95%, whitesmoke 100%);
+}
+
+

@@ -1,0 +1,119 @@
+@import url('./palette.css');
+
+body {
+    background-color: var(--background);
+}
+
+input[type="checkbox"] {
+    transform: scale(1.5);
+    margin-right: 8px;
+}
+
+.hidden {
+    display: none;
+}
+
+.shown {
+    display: inherit;
+}
+
+.card {
+    border: 2px solid black;
+    border-radius: 5px;
+    max-width: 800px;
+    width: 70%;
+    margin: 20px auto;
+}
+
+.card-header > h1 {
+    margin: 0px;
+}
+
+.card-header {
+    background-color: var(--card-header);
+    border-bottom: 1px dotted var(--gray-60);
+    padding: 12px;
+}
+
+.card-body {
+    background-color: var(--card-body);
+    padding: 12px;
+}
+
+.card-body > h5 {
+    margin: 4px;
+    margin-bottom: 12px;
+}
+
+div[id^="item"] {
+    margin-bottom: 8px;
+}
+
+.card-chk-box-wrapper {
+    display: flex;
+    min-width: 250px;
+}
+
+#card-day-body-chkbox {
+    display: flex;
+    flex-direction: column;
+}
+
+#card-day-body-banner {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.otter_img{
+    width: 200px;
+}
+
+.hearts_banner{
+    display: flex;
+}
+
+img[class^="heart"] {
+    width: 50px;
+}
+
+.heart_1 {
+    transform: rotate(-45deg);
+    width:40px !important;
+    height:40px !important
+}
+.heart_2 {
+    transform: rotate(-25deg);
+    width:20px !important;
+    height:20px !important
+}
+.heart_3 {
+    transform: rotate(0);
+    width:50px !important;
+    height:50px !important
+}
+.heart_4 {
+    transform: rotate(15deg);
+    width:20px !important;
+    height:20px !important
+}
+.heart_5 {
+    transform: rotate(45deg);
+    width:35px !important;
+    height:35px !important
+}
+
+
+.card-footer {
+    background-color: var(--card-footer);
+    border-top: 1px dotted var(--gray-60);
+    padding: 12px;
+}
+
+.save-btn {
+    border-radius: 5px;
+    padding: 4px 12px;
+    margin: 8px;
+    border: 1px solid var(--gray-80);
+    cursor: pointer;
+}

@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Good Habits</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+      
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+          rel="stylesheet">
+      
+        <script src="https://kit.fontawesome.com/b5077ad514.js" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+      
+        <link rel="stylesheet" href="./styles/main.css" />
+        <link rel="stylesheet" href="./styles/dashboard.css" />
+        <link rel="stylesheet" href="./styles/fonts.css" />
+    </head>
+    <body class="work-sans-regular">
+        <section>
+            <div class="card">
+                <div class="card-header" id="card-day-header">
+                </div>
+                <div class="card-body" id="card-day-body">
+                    <h5>¿Qué logré hoy?</h5>
+                    <div class="card-chk-box-wrapper">
+                        <div id="card-day-body-chkbox"></div>
+                        <div id="card-day-body-banner">
+                            <div class="hearts_banner">
+                                <img class="heart_1 hidden" src="/heart.webp">
+                                <img class="heart_2 hidden" src="/heart.webp">
+                                <img class="heart_3 hidden" src="/heart.webp">
+                                <img class="heart_4 hidden" src="/heart.webp">
+                                <img class="heart_5 hidden" src="/heart.webp">
+                            </div>
+                            <img class="otter_img" src="/otter.webp" />
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer" id="card-day-footer">
+                    <button id="save-btn" class="save-btn">Registrar</button>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div id="dashboard"></div>
+        </section>
+        <script type="module" src="./scripts/enums.js"></script>
+        <script type="module" src="./scripts/calendar.js"></script>
+    </body>
+</html>

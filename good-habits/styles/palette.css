@@ -1,0 +1,22 @@
+/* ::::::::::::::::::::: PALETA DE COLOR :::::::::::::::::::::*/
+:root {
+    --background: #fbf8ed;
+    --text: #1a1a1a;
+    --primary: #4a90e2;
+    --dark: #1a1a1a;
+    --front-background: #c4ffff;
+    --back-background: #c4c4ff;
+
+    --card-header: #b6e6c6;
+    --card-body: #c6f6d6;
+    --card-footer: #a6d6b6;
+
+    --dashboard-filler: #d8f7cc;
+
+
+    --carbon-20: #202020;
+    --carbon-40: #404040;
+    --gray-60: #606060;
+    --gray-80: #808080;
+  }
+  /*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
