@@ -30,6 +30,7 @@ let check_boxes_bool = [
     false,
     false,
     false,
+    false,
     false
 ]
 
