@@ -3,9 +3,25 @@ import getFraseMotivadora from "./api_phrases.js";
 import * as db from "./dashboard.js"
 
 const fecha_hoy = new Date();
+
+// LOST DATA FROM 16 OCT
 const initHistory = {
-    habits: []
+    habits: [
+        {
+            "update_date": "16/10/2025",
+            "checks": {
+                "Hoy no me molesté mi carita.": true,
+                "Hoy me ejercité.": true,
+                "Hoy trabajé en mis proyectos academicos.": false,
+                "Hoy trabajé en mis proyectos personales.": false,
+                "Hoy dormí bien.": false,
+                "Hoy comí bien.": true,
+                "Hoy le agradecí a Dios por mi vida.": false
+            }
+        }
+    ]
 }
+
 
 let check_boxes_bool = [
     false,

@@ -30,7 +30,8 @@ const check_boxes = [
     "Hoy trabajé en mis proyectos personales.",
     "Hoy dormí bien.",
     "Hoy comí bien.",
-    "Hoy le agradecí a Dios por mi vida."
+    "Hoy le agradecí a Dios por mi vida.",
+    "Hoy usé mi celular menos de 4 horas."
 ]
 
 export {days, months, check_boxes}
