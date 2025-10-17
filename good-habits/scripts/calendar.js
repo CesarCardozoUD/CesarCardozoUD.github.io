@@ -17,12 +17,12 @@ let check_boxes_bool = [
     false
 ]
 
-let session_history = JSON.parse(sessionStorage.getItem("history"));
+let session_history = JSON.parse(localStorage.getItem("history"));
 
 
 if (session_history === null) {
-    sessionStorage.setItem("history", JSON.stringify(initHistory));
-    session_history = JSON.parse(sessionStorage.getItem("history"));
+    localStorage.setItem("history", JSON.stringify(initHistory));
+    session_history = JSON.parse(localStorage.getItem("history"));
 }
 
 const dia_semana_id = fecha_hoy.getDay();
@@ -121,7 +121,7 @@ const save_day = () => {
     new_log.checks = results;
 
     session_history.habits.push(new_log)
-    sessionStorage.setItem("history", JSON.stringify(session_history));
+    localStorage.setItem("history", JSON.stringify(session_history));
     load_history();
     feed_dashboard();
 }
