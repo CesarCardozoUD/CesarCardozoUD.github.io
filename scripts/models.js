@@ -5,7 +5,7 @@ export const jobs = {
             "cargo": "Analista Senior - Equipo XCenter",
             "fecha_inicio": "May, 2025",
             "fecha_fin": "Actualidad",
-            "descripcion": "--------",
+            "descripcion": "Diseño, modelado y desarrollo de software para asesores de venta del banco de Bogotá.",
             "color": "blue"
         },
         {
