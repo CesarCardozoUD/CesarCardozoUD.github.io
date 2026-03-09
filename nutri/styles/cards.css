@@ -1,0 +1,56 @@
+.task-card {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+}
+
+.task-card-content{
+    width: 100%;
+}
+
+.task-card-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.task-card-body {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.task-card-body > p {
+    white-space: pre-line;
+    word-break: break-word;
+    overflow-wrap: break-word;
+}
+
+.task-card > button {
+    height: 48px;
+}
+
+.task-card-action {
+    border: none;
+    background: white;
+    cursor: pointer;
+    font-size: 32px;
+}
+
+#reTakebtn, #deleteBtn {
+    border: none;
+    background: white;
+    cursor: pointer;
+    font-size: 28px;
+    margin-left: 8px;
+}
+
+#reTakebtn {
+    color: teal;
+}
+
+#deleteBtn {
+    color: gray;
+}
