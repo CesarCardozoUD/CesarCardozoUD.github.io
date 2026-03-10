@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TURING TOOL</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./styles/palette.css">
+    <link rel="stylesheet" href="./styles/main.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title rubik-font-bold">TURING Tool - IA Detector</h1>
+        <div class="wrapper">
+            <span class="rubik-font-ligth">Ingresa tu texto:</span>
+            <textarea maxlength="1000" id="txtOriginal" class="input rubik-font-ligth" onchange=""></textarea>
+            <div class="footer">
+                <span id="counter" class="rubik-font-ligth">0/1000 Caracteres</span>
+                <span id="btnAnalyze" class="btn rubik-font-ligth">analizar</span>
+            </div>
+        </div>
+        <hr>
+        <p id="response" class="rubik-font-ligth"></p>
+
+        <div id="tooltip" class="rubik-font-ligth"></div>
+
+        <script type="module" src="./scripts/main.js"></script>
+    </div>
+</body>
+</html>

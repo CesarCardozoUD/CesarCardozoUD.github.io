@@ -1,0 +1,39 @@
+:root {
+    /* ::::::: LIGHT THEME ::::::::: */
+    --background-light: #F9F9F9;
+    --alt-background-light: #FFFFFF;
+    --primary-light: #aab3eb;
+
+    --low-alert-ligth: #ebf895;
+    --mid-alert-ligth: #f8c895;
+    --high-alert-ligth: #f89595;
+
+    --tooltip-bg-light: #FFFFFF;
+
+
+    /* ::::::: DARK THEME ::::::::: */
+    --background-dark: #FFFFFF;
+    --primary-dark: #FF55FF;
+
+    --low-alert-dark: #ebf895;
+    --mid-alert-dark: #f8c895;
+    --high-alert-dark: #f89595;
+
+    --tooltip-bg-light: #FFFFFF;
+
+
+    --shadow-soft: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+
+.rubik-font-ligth {
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+}
+
+.rubik-font-bold {
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+}
