@@ -16,10 +16,16 @@
     <div class="container">
         <h1 class="title rubik-font-bold">TURING Tool - IA Detector</h1>
         <div class="wrapper">
-            <span class="rubik-font-ligth">Ingresa tu texto:</span>
-            <textarea maxlength="1000" id="txtOriginal" class="input rubik-font-ligth" onchange=""></textarea>
             <div class="footer">
-                <span id="counter" class="rubik-font-ligth">0/1000 Caracteres</span>
+                <span class="rubik-font-ligth">Ingresa tu texto:</span>
+                <select id="ddwModel">
+                    <option value="openai/gpt-oss-20b">GPT OSS 20B</option>
+                    <option value="llama-3.1-8b-instant">Llama 3.1</option>
+                </select>
+            </div>
+            <textarea maxlength="2000" id="txtOriginal" class="input rubik-font-ligth" onchange=""></textarea>
+            <div class="footer">
+                <span id="counter" class="rubik-font-ligth">0/2000 Caracteres</span>
                 <span id="btnAnalyze" class="btn rubik-font-ligth">analizar</span>
             </div>
         </div>

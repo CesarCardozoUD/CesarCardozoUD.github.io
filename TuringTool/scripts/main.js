@@ -4,9 +4,11 @@ const btn = document.querySelector("#btnAnalyze");
 const original_text_input = document.querySelector("#txtOriginal");
 const response_text_output = document.querySelector("#response");
 const counter_output = document.querySelector("#counter");
+const dropdown_model = document.querySelector("#ddwModel");
 
 btn.addEventListener("click", handleAnalyzeClick);
 original_text_input.addEventListener("input", handleChangetext);
+dropdown_model.addEventListener("change", handleSelectModel)
 
 response_text_output.addEventListener("mouseover", (e) => {
     if(e.target.matches("mid, high, low")){
@@ -42,5 +44,9 @@ async function handleAnalyzeClick(){
 
 async function handleChangetext(event){
     const text = event.target.value;
-    counter_output.innerText = text.length + "/1000 Caracteres"
+    counter_output.innerText = text.length + "/2000 Caracteres"
+}
+
+async function handleSelectModel(event){
+    GroqAIManager.setModel(event.target.value);
 }
