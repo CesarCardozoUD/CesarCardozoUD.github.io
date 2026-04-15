@@ -2,6 +2,9 @@
 const supabaseUrl = "https://mzxyejlpsujiilfemjyd.supabase.co";
 const supabaseKey = "sb_publishable__y3N_ypigy3lB4PAZTOSPg_N-QnGYNj";
 const sup = window.supabase.createClient(supabaseUrl, supabaseKey);
+const pass = document.querySelector("#txtPsw")
+
+pass.addEventListener('click', checkPass);
 
 async function readCoupon() {
     const params = new URLSearchParams(window.location.search);
@@ -25,4 +28,9 @@ async function redeemCoupon(id) {
     }
 }
 
-readCoupon()
+async function checkPass() {
+    const psw = pass.value;
+    if(btoa(psw) == 'S2l3aWNpdGE='){
+        readCoupon()
+    }
+}
