@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Finalizar Compra</title>
+  <link rel="stylesheet" href="./styles/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <script src="https://kit.fontawesome.com/b5077ad514.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div class="container">
+  <!-- Formulario de pago -->
+  <div>
+    <h2>Detalles de Pago</h2>
+
+    <div class="form-group">
+      <label>Nombre en la tarjeta</label>
+      <input type="text" placeholder="Juan Pérez" id="name-field">
+    </div>
+
+    <div class="form-group">
+      <label>Número de tarjeta</label>
+      <div class="card-inputs">
+        <input type="text" maxlength="1" class="card-field" placeholder="7" id="card-field-1">
+        <input type="text" maxlength="1" class="card-field" placeholder="7" id="card-field-2">
+        <input type="text" maxlength="1" class="card-field" placeholder="7" id="card-field-3">
+        <input type="text" maxlength="1" class="card-field" placeholder="7" id="card-field-4">
+        <span>-</span>
+        <input type="text" maxlength="1" class="card-field" placeholder="7" id="card-field-5">
+        <input type="text" maxlength="1" class="card-field" placeholder="7" id="card-field-6">
+        <input type="text" maxlength="1" class="card-field" placeholder="7" id="card-field-7">
+        <input type="text" maxlength="1" class="card-field" placeholder="7" id="card-field-8">
+        <span>-</span>
+        <input type="text" maxlength="1" class="card-field" placeholder="7" id="card-field-9">
+        <input type="text" maxlength="1" class="card-field" placeholder="7" id="card-field-10">
+        <input type="text" maxlength="1" class="card-field" placeholder="7" id="card-field-11">
+        <input type="text" maxlength="1" class="card-field" placeholder="7" id="card-field-12">
+        <span>-</span>
+        <input type="text" maxlength="1" class="card-field" placeholder="7" id="card-field-13">
+        <input type="text" maxlength="1" class="card-field" placeholder="7" id="card-field-14">
+        <input type="text" maxlength="1" class="card-field" placeholder="7" id="card-field-15">
+        <input type="text" maxlength="1" class="card-field" placeholder="7" id="card-field-16">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="form-group">
+        <label>
+            Fecha de expiración 
+            <i id="tooltip-date" class="fa-solid fa-circle-info" tooltip="DD/MM Especial"></i>
+        </label>
+        <input type="text" maxlength="5" placeholder="MM/AA" id="date-field">
+      </div>
+
+      <div class="form-group" style="margin-left: 24px;">
+        <label>
+            CVV 
+            <i id="tooltip-cvv"  class="fa-solid fa-circle-info" tooltip="SHA-"></i>
+        </label>
+        <input type="text" maxlength="3" placeholder="123" id="cvv-field">
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label>Dirección de facturación</label>
+      <input type="text" placeholder="Calle 123 #45-67" id="address-field">
+    </div>
+
+    <span id="error-propmt" class="error hidden">* Error en las credenciales</span>
+
+    <button id="btn-finalizar">Finalizar Compra</button>
+  </div>
+
+  <!-- Resumen -->
+  <div class="summary">
+    <h2>Resumen</h2>
+
+    <div>
+      <span>Producto</span>
+      <span>$80.000</span>
+    </div>
+
+    <div>
+      <span>Envío</span>
+      <span>$10.000</span>
+    </div>
+
+    <div class="total">
+      <span>Total</span>
+      <span>$90.000</span>
+    </div>
+
+    <hr>
+
+
+    <h2>¿Necesitas Ayuda?</h2>
+    <p>En caso de presentar inconvenientes con las pasarelas de pago, por favor contacte a soporte <a href="./Art.html">aquí</a></p>
+  </div>
+</div>
+<div id="tooltip" class="rubik-font-ligth"></div>
+
+<script type="module" src="./scripts/main.js"></script>
+
+<script>
+  const fields = document.querySelectorAll('.card-field');
+
+  fields.forEach((field, index) => {
+    field.addEventListener('input', (e) => {
+      // Solo números
+      field.value = field.value.replace(/\D/g, '');
+
+      // Auto avanzar
+      if (field.value.length === 1 && index < fields.length - 1) {
+        fields[index + 1].focus();
+      }
+    });
+
+    field.addEventListener('keydown', (e) => {
+      // Retroceder con backspace
+      if (e.key === 'Backspace' && field.value.length === 0 && index > 0) {
+        fields[index - 1].focus();
+      }
+    });
+  });
+</script>
+
+</body>
+</html>

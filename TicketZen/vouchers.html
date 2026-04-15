@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tiquetera</title>
+    <link rel="stylesheet" href="./styles/vouchers.css">
+
+    <!-- Librería -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+
+    <script type="module" src="./scripts/supa.js"></script>
+    <script>
+        function flipCard(id) {
+            const card = document.getElementById(id);
+            card.classList.toggle("flipped");
+        }
+    </script>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="title">🎟️ Tiquetes disponibles</div>
+
+        <div id="coupons-grid" class="grid">
+            <!-- JS Filler -->
+        </div>
+    </div>
+</body>
+
+</html>
