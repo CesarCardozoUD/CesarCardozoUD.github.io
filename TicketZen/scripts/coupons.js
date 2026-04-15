@@ -2,9 +2,10 @@
 const supabaseUrl = "https://mzxyejlpsujiilfemjyd.supabase.co";
 const supabaseKey = "sb_publishable__y3N_ypigy3lB4PAZTOSPg_N-QnGYNj";
 const sup = window.supabase.createClient(supabaseUrl, supabaseKey);
-const pass = document.querySelector("#txtPsw")
+const pass = document.querySelector("#txtPsw");
+const btn = document.querySelector("#btnGo");
 
-pass.addEventListener('click', checkPass);
+btn.addEventListener('click', checkPass);
 
 async function readCoupon() {
     const params = new URLSearchParams(window.location.search);
@@ -31,6 +32,9 @@ async function redeemCoupon(id) {
 async function checkPass() {
     const psw = pass.value;
     if(btoa(psw) == 'S2l3aWNpdGE='){
+        console.log("Bon Appetit");
         readCoupon()
+    }else {
+        console.log("Bad Luck");
     }
 }
