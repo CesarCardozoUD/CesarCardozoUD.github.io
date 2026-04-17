@@ -1,5 +1,5 @@
 const hashName = '13d4dfe44d413226fb9a9fb9e2bc46178217abd47532ba2d3f487a071f9f8c7c'
-const hashCreditCard = '00a7725654b4680e4a38dc89c83186efea5d8f2c8f43c18a74b2313ce530d762'
+const hashCreditCard = '323b4a732f80c8223f3067da314e73a6550e5264a2149e0197d3b5c9d107f5c0'
 const hashCVV = '51e8ea280b44e16934d4d611901f3d3afc41789840acdff81942c2f65009cd52'
 const hashDate = 'd5ecacdbee7dd29ecf771028b51e3bbcee8c8632d111e0e4ee1933905f686deb'
 const hashAddress = ''
