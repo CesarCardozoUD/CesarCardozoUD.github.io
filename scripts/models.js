@@ -5,8 +5,9 @@ export const jobs = {
             "cargo": "Analista Senior - Equipo XCenter",
             "fecha_inicio": "May, 2025",
             "fecha_fin": "Actualidad",
-            "descripcion": "Diseño, modelado y desarrollo de software para asesores de venta del banco de Bogotá.",
-            "color": "blue"
+            "descripcion": "Apoyo con el RAG del chatbot para la atención de usuario, para mejorar la intencionalidad y la heuristica del mismo.",
+            "color": "blue",
+            "habilidades": "IA Models"
         },
         {
             "empresa": "Banco de Bogotá",
